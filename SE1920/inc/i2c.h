@@ -17,21 +17,37 @@ enum I2C_BUS{
 	I2C_1,
 	I2C_2
 };
-/** @defgroup I2C I2C
- * This package provides the core capabilities for I2C functions.
- * @{
- */
-/** @defgroup I2C_Public_Functions I2C Public Functions
- * @{
-*/
-void init_I2C(void);
-/**
- * @brief set I2C transfers configurations
- */
-int I2C_ConfigTransfer(int frequency, int bitData, int mode);
 
-/**
- * @}
- * @}
- */
+enum I2C_CONFIG_RETURN_VALUES{
+	FREQUENCY_ERROR=-3,
+	DUTY_CYCLE_ERROR,
+	BUS_ERROR,
+	CONFIG_OK
+};
+
+#define I2C_FUNCTION 3
+#define PCLK_CCLK_FUNCTION_L 2
+#define PCLK_I2C0_BIT_POSITION 14
+#define PCLK_I2C1_BIT_POSITION 6
+#define PCLK_I2C2_BIT_POSITION 20
+
+#define I2C0_FUNCTION 10
+#define PINSEL_I2C0_BIT_POS 22
+
+#define I2C1_FUNCTION 15
+#define PINSEL_I2C1_BIT_POS 0
+
+#define I2C2_FUNCTION 5
+#define PINSEL_I2C2_BIT_POS 20
+
+#define MEGA_VALUE 1000000
+#define I2C_RATE_ADJUST 10
+
+void init_I2C();
+
+int I2C_ConfigTransfer(unsigned int frequency, unsigned int dutyCycle, unsigned int bus);
+
+int I2C_Write(unsigned short slaveAddr, unsigned short *txBuffer, int length);
+
+int I2C_Read(unsigned short *txBuffer, unsigned short *rxBuffer, int length);
 #endif /* I2C_H_ */
