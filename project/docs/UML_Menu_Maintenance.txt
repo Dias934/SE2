@@ -1,0 +1,35 @@
+@startuml
+[*]-->NormalMenu:After Init
+NormalMenu: Shows Time, Date, Temperature and Air Pressure
+NormalMenu-->MaintenanceMenu:U&D are pressed for 2 seconds
+MaintenanceMenu: Change Time, Date or Temperature units
+state MaintenanceMenu{
+	state begin<<fork>>
+	state continue<<join>>
+	state end<<join>>
+	MaintenanceMenu-->begin
+	
+	begin-->AnyButtonPressed
+	AnyButtonPressed: Read Buttons
+	
+	AnyButtonPressed-up->NoButtons: No Button is pressed
+	NoButtons: Count time
+	
+	AnyButtonPressed->PressUpAndDown: U&D Buttons pressed
+	PressUpAndDown:Led Blinking at 4Hz
+	PressUpAndDown:Start counting time
+	PressUpAndDown->ButtonsReleased: After 2 seconds
+	ButtonsReleased->ButtonsReleased: Waiting for buttons release
+	ButtonsReleased:Led Blinking at 10Hz
+	
+	NoButtons-->continue: Didn't pass 10 seconds
+	PressUpAndDown-left->continue: Didn't pass 2 seconds
+	AnyButtonPressed-->continue
+	continue--> Maintenance
+	Maintenance-up->begin
+	
+	ButtonsReleased-up->end: Released
+	NoButtons-up->end: 10 seconds timeout
+}
+end-up->NormalMenu: Return
+@enduml

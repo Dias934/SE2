@@ -1,0 +1,22 @@
+@startuml
+
+[*] --> NormalMenu: After Init
+NormalMenu: Shows Time, Date, Temperature and Air Pressure
+state NormalMenu{
+	state begin<<fork>>
+	NormalMenu-->begin
+	begin-->PressUpAndDown:Buttons U&D are pressed
+	PressUpAndDown-up->begin: U&D released
+	PressUpAndDown:Led Blinking at 4Hz
+	PressUpAndDown:Start counting time
+	PressUpAndDown-->ButtonsReleased: After 2 seconds
+	ButtonsReleased->ButtonsReleased: Waiting for buttons release
+	
+	ButtonsReleased:Led Blinking at 10Hz
+}
+ButtonsReleased-->MaintenanceMenu
+MaintenanceMenu: Change Time, Date or Temperature units
+MaintenanceMenu-left-> begin:10 seconds Timeout
+MaintenanceMenu-up-> begin:U&D are pressed for 2 seconds
+
+@enduml

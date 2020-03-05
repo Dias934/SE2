@@ -1,0 +1,17 @@
+@startuml
+
+[*] --> InitMenu
+InitMenu: Initiates Peripherals
+InitMenu: Initiates BMP280 Sensor
+InitMenu: Setup Data Storage
+
+InitMenu -> NormalMenu
+NormalMenu: Shows Time, Date, Temperature and Air Pressure
+
+NormalMenu --> MaintenanceMenu : U&D are pressed for 2 seconds
+
+MaintenanceMenu: Change Time, Date or Temperature Units
+MaintenanceMenu -left-> NormalMenu : 10 seconds Timeout
+MaintenanceMenu -left-> NormalMenu: U&D are pressed for 2 seconds
+
+@enduml

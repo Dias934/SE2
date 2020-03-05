@@ -1,0 +1,20 @@
+@startuml
+
+[*] -> InitMenu
+state InitMenu{
+	InitMenu->InitPeripherals
+	state InitPeripherals{
+		InitWait->InitRTC
+		InitRTC->InitUI
+		state InitUI{
+			InitLCD->InitLED
+			InitLED->InitButton
+		}
+		InitUI->InitSPI
+	}
+	InitPeripherals->InitBMP280
+	InitBMP280->InitDataStorage
+}
+InitDataStorage->[*]:End Init
+
+@enduml

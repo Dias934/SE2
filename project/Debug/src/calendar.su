@@ -1,0 +1,8 @@
+calendar.c:13:6:init_cal	4	static
+calendar.c:19:6:set_Day	16	static
+calendar.c:20:6:set_Month	16	static
+calendar.c:21:6:set_Year	16	static
+calendar.c:22:7:get_Day	4	static
+calendar.c:23:7:get_Month	4	static
+calendar.c:24:7:get_Year	4	static
+calendar.c:26:7:set_Date	16	static

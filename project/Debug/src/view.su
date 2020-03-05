@@ -1,0 +1,5 @@
+view.c:15:6:view_normal	8	static
+view.c:24:6:view_maintenance	16	static
+view.c:31:6:view_change_time	8	static
+view.c:36:6:view_change_date	8	static
+view.c:41:6:view_change_temperature_units	8	static
