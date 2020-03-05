@@ -1,2 +1,2 @@
-menu.c:14:7:init_menu	8	static
-menu.c:21:7:up_and_down_pressed	24	static
+menu.c:16:7:init_menu	8	static
+menu.c:23:7:up_and_down_pressed	24	static

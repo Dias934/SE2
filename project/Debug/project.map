@@ -1,39 +1,39 @@
 Archive member included to satisfy reference by file (symbol)
 
-D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
                               ./src/cr_startup_lpc175x_6x.o (SystemInit)
-D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
+D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
                               ./src/data_storage.o (current_temp)
-D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
+D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
                               ./src/menu.o (BUTTON_GetButtonsEvents)
-D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
+D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
                               ./src/data_storage.o (writeToFlash)
-D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
-                              D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o) (FLASH_WriteData)
-D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
+D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+                              D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o) (FLASH_WriteData)
+D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
                               ./src/menu_maintenance.o (LCDText_Locate)
-D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
+D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
                               ./src/menu.o (turn_off_led)
-D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
+D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
                               ./src/menu.o (init_peripherals)
-D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
-                              D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o) (init_RTC)
-D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
-                              D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o) (init_spi)
-D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
-                              D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o) (init_ui)
-D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
-                              D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o) (init_wait)
+D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+                              D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o) (init_RTC)
+D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+                              D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o) (init_spi)
+D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+                              D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o) (init_ui)
+D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+                              D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o) (init_wait)
 c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_semihost.a(_cr__main.o)
                               ./src/cr_startup_lpc175x_6x.o (__main)
 c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(memcpy.o)
-                              D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o) (memcpy)
+                              D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o) (memcpy)
 c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(fpprintf.o)
                               ./src/data_storage.o (sprintf)
 c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(initio.o)
                               c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_semihost.a(_cr__main.o) (_initio)
 c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(itoa.o)
-                              D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o) (itoa)
+                              D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o) (itoa)
 c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(printf.o)
                               c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(fpprintf.o) (__vfprintf)
 c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(setvbuf.o)
@@ -41,7 +41,7 @@ c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0
 c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(strlen.o)
                               c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(printf.o) (strlen)
 c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(time.o)
-                              D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o) (mktime)
+                              D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o) (mktime)
 c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(memset.o)
                               c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(fpprintf.o) (memset)
 c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(_deferredlazyseek.o)
@@ -81,7 +81,7 @@ c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0
 c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(_cr_check_heap.o)
                               c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(_cr_sbrk.o) (__check_heap_overflow)
 c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(division_64.o)
-                              D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o) (__aeabi_ldivmod)
+                              D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o) (__aeabi_ldivmod)
 c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(division_idiv0.o)
                               c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(division_64.o) (__aeabi_idiv0)
 c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(double.o)
@@ -196,7 +196,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./src/menu.o
  .debug_macro   0x00000000       0xc4 ./src/menu.o
  .debug_macro   0x00000000       0xa0 ./src/menu.o
- .debug_macro   0x00000000       0xa0 ./src/menu.o
+ .debug_macro   0x00000000       0x9a ./src/menu.o
  .debug_macro   0x00000000       0x28 ./src/menu.o
  .debug_macro   0x00000000       0x10 ./src/menu.o
  .debug_macro   0x00000000       0x28 ./src/menu.o
@@ -248,7 +248,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./src/menu_maintenance.o
  .debug_macro   0x00000000       0xc4 ./src/menu_maintenance.o
  .debug_macro   0x00000000       0xa0 ./src/menu_maintenance.o
- .debug_macro   0x00000000       0xa0 ./src/menu_maintenance.o
+ .debug_macro   0x00000000       0x9a ./src/menu_maintenance.o
  .debug_macro   0x00000000       0x28 ./src/menu_maintenance.o
  .debug_macro   0x00000000       0x10 ./src/menu_maintenance.o
  .debug_macro   0x00000000       0x28 ./src/menu_maintenance.o
@@ -301,7 +301,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./src/menu_normal.o
  .debug_macro   0x00000000       0xc4 ./src/menu_normal.o
  .debug_macro   0x00000000       0xa0 ./src/menu_normal.o
- .debug_macro   0x00000000       0xa0 ./src/menu_normal.o
+ .debug_macro   0x00000000       0x9a ./src/menu_normal.o
  .debug_macro   0x00000000       0x28 ./src/menu_normal.o
  .debug_macro   0x00000000       0x10 ./src/menu_normal.o
  .debug_macro   0x00000000       0x28 ./src/menu_normal.o
@@ -354,7 +354,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./src/project.o
  .debug_macro   0x00000000       0xc4 ./src/project.o
  .debug_macro   0x00000000       0xa0 ./src/project.o
- .debug_macro   0x00000000       0xa0 ./src/project.o
+ .debug_macro   0x00000000       0x9a ./src/project.o
  .debug_macro   0x00000000       0x28 ./src/project.o
  .debug_macro   0x00000000       0x10 ./src/project.o
  .debug_macro   0x00000000       0x28 ./src/project.o
@@ -406,344 +406,363 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./src/view.o
  .debug_macro   0x00000000       0xc4 ./src/view.o
  .debug_macro   0x00000000       0xa0 ./src/view.o
- .debug_macro   0x00000000       0xa0 ./src/view.o
+ .debug_macro   0x00000000       0x9a ./src/view.o
  .debug_macro   0x00000000       0x28 ./src/view.o
  .debug_macro   0x00000000       0x10 ./src/view.o
  .debug_macro   0x00000000       0x28 ./src/view.o
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
- .text          0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
- .data          0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
- .bss           0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+ .text          0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+ .data          0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+ .bss           0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
  .text.SystemCoreClockUpdate
-                0x00000000       0xec D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
- .debug_macro   0x00000000       0x10 D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
- .debug_macro   0x00000000      0x12e D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
- .debug_macro   0x00000000      0x5b3 D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
- .debug_macro   0x00000000       0x1c D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
- .debug_macro   0x00000000       0x3a D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
- .debug_macro   0x00000000       0x2d D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
- .debug_macro   0x00000000      0xbb1 D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
- .debug_macro   0x00000000      0x2c7 D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .text          0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .data          0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .bss           0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
+                0x00000000       0xec D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000       0x10 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000      0x12e D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000      0x5b3 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000       0x1c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000       0x3a D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000       0x2d D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000      0xbb1 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000      0x2c7 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .text          0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .data          0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .bss           0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
  .text.get_chip_ID
-                0x00000000       0x48 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .debug_macro   0x00000000       0x1c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .debug_macro   0x00000000       0x3a D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .debug_macro   0x00000000       0x10 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .debug_macro   0x00000000      0x12e D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .debug_macro   0x00000000      0x5b3 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .debug_macro   0x00000000       0x2d D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .debug_macro   0x00000000      0xbb1 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .debug_macro   0x00000000      0x2c7 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
- .text          0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
- .data          0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
- .bss           0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
+                0x00000000       0x48 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .debug_macro   0x00000000       0x1c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .debug_macro   0x00000000       0x3a D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .debug_macro   0x00000000       0x10 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .debug_macro   0x00000000      0x12e D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .debug_macro   0x00000000      0x5b3 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .debug_macro   0x00000000       0x2d D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .debug_macro   0x00000000      0xbb1 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .debug_macro   0x00000000      0x2c7 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .debug_macro   0x00000000       0x76 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .debug_macro   0x00000000       0x46 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .debug_macro   0x00000000       0xa0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .debug_macro   0x00000000       0x22 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .debug_macro   0x00000000       0x1c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .debug_macro   0x00000000       0x95 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .debug_macro   0x00000000       0x52 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .debug_macro   0x00000000       0x10 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .debug_macro   0x00000000       0xc4 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .debug_macro   0x00000000       0xa0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .debug_macro   0x00000000       0x9a D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+ .text          0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+ .data          0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+ .bss           0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
  .text.BUTTON_Read
-                0x00000000       0x24 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
- .debug_macro   0x00000000      0xaa2 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
- .debug_macro   0x00000000       0x1c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
- .debug_macro   0x00000000       0x3a D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
- .debug_macro   0x00000000       0x10 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
- .debug_macro   0x00000000      0x12e D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
- .debug_macro   0x00000000      0x5b3 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
- .debug_macro   0x00000000       0x2d D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
- .debug_macro   0x00000000      0xbb1 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
- .debug_macro   0x00000000      0x2c7 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .text          0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .data          0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .bss           0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .debug_macro   0x00000000      0xaa2 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .debug_macro   0x00000000       0x1c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .debug_macro   0x00000000       0x3a D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .debug_macro   0x00000000       0x10 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .debug_macro   0x00000000      0x12e D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .debug_macro   0x00000000      0x5b3 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .debug_macro   0x00000000       0x2d D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .debug_macro   0x00000000      0xbb1 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .debug_macro   0x00000000      0x2c7 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .debug_macro   0x00000000       0x10 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .text          0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .data          0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .bss           0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
+                0x00000000       0x24 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+ .debug_macro   0x00000000      0xaa2 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+ .debug_macro   0x00000000       0x1c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+ .debug_macro   0x00000000       0x3a D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+ .debug_macro   0x00000000       0x10 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+ .debug_macro   0x00000000      0x12e D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+ .debug_macro   0x00000000      0x5b3 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+ .debug_macro   0x00000000       0x2d D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+ .debug_macro   0x00000000      0xbb1 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+ .debug_macro   0x00000000      0x2c7 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .text          0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .data          0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .bss           0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .debug_macro   0x00000000      0xaa2 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .debug_macro   0x00000000       0x1c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .debug_macro   0x00000000       0x3a D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .debug_macro   0x00000000       0x10 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .debug_macro   0x00000000      0x12e D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .debug_macro   0x00000000      0x5b3 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .debug_macro   0x00000000       0x2d D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .debug_macro   0x00000000      0xbb1 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .debug_macro   0x00000000      0x2c7 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .debug_macro   0x00000000       0x10 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .text          0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .data          0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .bss           0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
  .text.FLASH_BlankSectors
-                0x00000000       0x40 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .debug_macro   0x00000000      0xaa2 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .debug_macro   0x00000000       0x1c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .debug_macro   0x00000000       0x3a D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .debug_macro   0x00000000       0x10 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .debug_macro   0x00000000      0x12e D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .debug_macro   0x00000000      0x5b3 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .debug_macro   0x00000000       0x2d D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .debug_macro   0x00000000      0xbb1 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .debug_macro   0x00000000      0x2c7 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .debug_macro   0x00000000       0x22 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .text          0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .data          0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .bss           0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .rodata        0x00000000       0x10 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
+                0x00000000       0x40 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .debug_macro   0x00000000      0xaa2 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .debug_macro   0x00000000       0x1c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .debug_macro   0x00000000       0x3a D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .debug_macro   0x00000000       0x10 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .debug_macro   0x00000000      0x12e D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .debug_macro   0x00000000      0x5b3 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .debug_macro   0x00000000       0x2d D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .debug_macro   0x00000000      0xbb1 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .debug_macro   0x00000000      0x2c7 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .debug_macro   0x00000000       0x22 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .text          0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .data          0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .bss           0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .rodata        0x00000000       0x10 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
  .text.LCDText_Printf
-                0x00000000       0x4c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
+                0x00000000       0x4c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
  .text.LCDText_PrintBinary
-                0x00000000       0x2c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .debug_macro   0x00000000      0xaa2 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .debug_macro   0x00000000       0x1c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .debug_macro   0x00000000       0x3a D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .debug_macro   0x00000000       0x10 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .debug_macro   0x00000000      0x12e D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .debug_macro   0x00000000      0x5b3 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .debug_macro   0x00000000       0x2d D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .debug_macro   0x00000000      0xbb1 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .debug_macro   0x00000000      0x2c7 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .debug_macro   0x00000000       0x46 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .debug_macro   0x00000000       0xa0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .debug_macro   0x00000000       0x22 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .debug_macro   0x00000000       0x1c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .debug_macro   0x00000000       0x95 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .debug_macro   0x00000000       0x52 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
- .text          0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
- .data          0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
- .bss           0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
+                0x00000000       0x2c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .debug_macro   0x00000000      0xaa2 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .debug_macro   0x00000000       0x1c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .debug_macro   0x00000000       0x3a D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .debug_macro   0x00000000       0x10 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .debug_macro   0x00000000      0x12e D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .debug_macro   0x00000000      0x5b3 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .debug_macro   0x00000000       0x2d D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .debug_macro   0x00000000      0xbb1 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .debug_macro   0x00000000      0x2c7 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .debug_macro   0x00000000       0x46 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .debug_macro   0x00000000       0xa0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .debug_macro   0x00000000       0x22 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .debug_macro   0x00000000       0x1c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .debug_macro   0x00000000       0x95 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .debug_macro   0x00000000       0x52 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+ .text          0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+ .data          0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+ .bss           0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
  .text.led_get_state
-                0x00000000       0x14 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
- .debug_macro   0x00000000      0xaa2 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
- .debug_macro   0x00000000       0x1c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
- .debug_macro   0x00000000       0x3a D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
- .debug_macro   0x00000000       0x10 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
- .debug_macro   0x00000000      0x12e D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
- .debug_macro   0x00000000      0x5b3 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
- .debug_macro   0x00000000       0x2d D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
- .debug_macro   0x00000000      0xbb1 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
- .debug_macro   0x00000000      0x2c7 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .text          0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .data          0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .bss           0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .debug_macro   0x00000000      0xaa2 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .debug_macro   0x00000000       0x1c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .debug_macro   0x00000000       0x3a D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .debug_macro   0x00000000       0x10 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .debug_macro   0x00000000      0x12e D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .debug_macro   0x00000000      0x5b3 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .debug_macro   0x00000000       0x2d D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .debug_macro   0x00000000      0xbb1 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .debug_macro   0x00000000      0x2c7 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .debug_macro   0x00000000       0x76 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .debug_macro   0x00000000       0x46 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .debug_macro   0x00000000       0xa0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .debug_macro   0x00000000       0x22 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .debug_macro   0x00000000       0x1c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .debug_macro   0x00000000       0x95 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .debug_macro   0x00000000       0x52 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .debug_macro   0x00000000       0x10 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .debug_macro   0x00000000       0xc4 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .debug_macro   0x00000000       0xa0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .text          0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .data          0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .bss           0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
+                0x00000000       0x14 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+ .debug_macro   0x00000000      0xaa2 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+ .debug_macro   0x00000000       0x1c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+ .debug_macro   0x00000000       0x3a D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+ .debug_macro   0x00000000       0x10 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+ .debug_macro   0x00000000      0x12e D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+ .debug_macro   0x00000000      0x5b3 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+ .debug_macro   0x00000000       0x2d D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+ .debug_macro   0x00000000      0xbb1 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+ .debug_macro   0x00000000      0x2c7 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .text          0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .data          0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .bss           0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .debug_macro   0x00000000      0xaa2 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .debug_macro   0x00000000       0x1c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .debug_macro   0x00000000       0x3a D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .debug_macro   0x00000000       0x10 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .debug_macro   0x00000000      0x12e D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .debug_macro   0x00000000      0x5b3 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .debug_macro   0x00000000       0x2d D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .debug_macro   0x00000000      0xbb1 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .debug_macro   0x00000000      0x2c7 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .debug_macro   0x00000000       0x76 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .debug_macro   0x00000000       0x46 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .debug_macro   0x00000000       0xa0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .debug_macro   0x00000000       0x22 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .debug_macro   0x00000000       0x1c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .debug_macro   0x00000000       0x95 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .debug_macro   0x00000000       0x52 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .debug_macro   0x00000000       0x10 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .debug_macro   0x00000000       0xc4 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .debug_macro   0x00000000       0xa0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .text          0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .data          0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .bss           0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
  .text.RTC_SetSconds
-                0x00000000       0x16 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
+                0x00000000       0x16 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
  .text.RTC_GetSeconds
-                0x00000000       0x22 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .debug_macro   0x00000000      0xaa2 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .debug_macro   0x00000000       0x10 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .debug_macro   0x00000000      0x12e D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .debug_macro   0x00000000       0x10 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .debug_macro   0x00000000       0x1c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .debug_macro   0x00000000       0x3a D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .debug_macro   0x00000000      0x5b3 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .debug_macro   0x00000000       0x2d D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .debug_macro   0x00000000      0xbb1 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .debug_macro   0x00000000      0x2c7 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .debug_macro   0x00000000       0xc4 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .debug_macro   0x00000000       0x22 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
- .text          0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
- .data          0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
- .bss           0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
- .debug_macro   0x00000000      0xaa2 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
- .debug_macro   0x00000000       0x1c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
- .debug_macro   0x00000000       0x3a D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
- .debug_macro   0x00000000       0x10 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
- .debug_macro   0x00000000      0x12e D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
- .debug_macro   0x00000000      0x5b3 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
- .debug_macro   0x00000000       0x2d D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
- .debug_macro   0x00000000      0xbb1 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
- .debug_macro   0x00000000      0x2c7 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
- .debug_macro   0x00000000       0x9a D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .text          0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .data          0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .bss           0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .debug_macro   0x00000000      0xaa2 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .debug_macro   0x00000000       0x1c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .debug_macro   0x00000000       0x3a D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .debug_macro   0x00000000       0x10 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .debug_macro   0x00000000      0x12e D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .debug_macro   0x00000000      0x5b3 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .debug_macro   0x00000000       0x2d D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .debug_macro   0x00000000      0xbb1 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .debug_macro   0x00000000      0x2c7 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .debug_macro   0x00000000       0x76 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .debug_macro   0x00000000       0x46 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .debug_macro   0x00000000       0xa0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .debug_macro   0x00000000       0x22 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .debug_macro   0x00000000       0x1c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .debug_macro   0x00000000       0x95 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .debug_macro   0x00000000       0x52 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
- .group         0x00000000        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
- .text          0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
- .data          0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
- .bss           0x00000000        0x0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
- .text.wait_hz  0x00000000       0x5c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
- .debug_macro   0x00000000      0xaa2 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
- .debug_macro   0x00000000       0x1c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
- .debug_macro   0x00000000       0x3a D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
- .debug_macro   0x00000000       0x10 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
- .debug_macro   0x00000000      0x12e D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
- .debug_macro   0x00000000      0x5b3 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
- .debug_macro   0x00000000       0x2d D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
- .debug_macro   0x00000000      0xbb1 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
- .debug_macro   0x00000000      0x2c7 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
+                0x00000000       0x22 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .debug_macro   0x00000000      0xaa2 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .debug_macro   0x00000000       0x10 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .debug_macro   0x00000000      0x12e D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .debug_macro   0x00000000       0x10 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .debug_macro   0x00000000       0x1c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .debug_macro   0x00000000       0x3a D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .debug_macro   0x00000000      0x5b3 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .debug_macro   0x00000000       0x2d D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .debug_macro   0x00000000      0xbb1 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .debug_macro   0x00000000      0x2c7 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .debug_macro   0x00000000       0xc4 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .debug_macro   0x00000000       0x22 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+ .text          0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+ .data          0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+ .bss           0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+ .debug_macro   0x00000000      0xaa2 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+ .debug_macro   0x00000000       0x1c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+ .debug_macro   0x00000000       0x3a D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+ .debug_macro   0x00000000       0x10 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+ .debug_macro   0x00000000      0x12e D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+ .debug_macro   0x00000000      0x5b3 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+ .debug_macro   0x00000000       0x2d D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+ .debug_macro   0x00000000      0xbb1 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+ .debug_macro   0x00000000      0x2c7 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .text          0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .data          0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .bss           0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .debug_macro   0x00000000      0xaa2 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .debug_macro   0x00000000       0x1c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .debug_macro   0x00000000       0x3a D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .debug_macro   0x00000000       0x10 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .debug_macro   0x00000000      0x12e D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .debug_macro   0x00000000      0x5b3 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .debug_macro   0x00000000       0x2d D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .debug_macro   0x00000000      0xbb1 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .debug_macro   0x00000000      0x2c7 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .debug_macro   0x00000000       0x76 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .debug_macro   0x00000000       0x46 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .debug_macro   0x00000000       0xa0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .debug_macro   0x00000000       0x22 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .debug_macro   0x00000000       0x1c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .debug_macro   0x00000000       0x95 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .debug_macro   0x00000000       0x52 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+ .group         0x00000000        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+ .text          0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+ .data          0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+ .bss           0x00000000        0x0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+ .text.wait_hz  0x00000000       0x5c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+ .debug_macro   0x00000000      0xaa2 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+ .debug_macro   0x00000000       0x1c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+ .debug_macro   0x00000000       0x3a D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+ .debug_macro   0x00000000       0x10 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+ .debug_macro   0x00000000      0x12e D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+ .debug_macro   0x00000000      0x5b3 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+ .debug_macro   0x00000000       0x2d D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+ .debug_macro   0x00000000      0xbb1 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+ .debug_macro   0x00000000      0x2c7 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
  .text          0x00000000        0x0 c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_semihost.a(_cr__main.o)
  .data          0x00000000        0x0 c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_semihost.a(_cr__main.o)
  .bss           0x00000000        0x0 c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_semihost.a(_cr__main.o)
@@ -998,8 +1017,8 @@ LOAD ./src/menu_maintenance.o
 LOAD ./src/menu_normal.o
 LOAD ./src/project.o
 LOAD ./src/view.o
-LOAD D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a
-LOAD D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a
+LOAD D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a
+LOAD D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a
 START GROUP
 LOAD c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_semihost.a
 LOAD c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a
@@ -1212,134 +1231,134 @@ END GROUP
                 0x00001110       0x18 ./src/view.o
                 0x00001110                view_change_temperature_units
  .text.SystemInit
-                0x00001128       0xdc D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+                0x00001128       0xdc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
                 0x00001128                SystemInit
  .text.write_spi
-                0x00001204       0x40 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
+                0x00001204       0x40 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
  .text.get_calib_data
-                0x00001244       0x88 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
+                0x00001244       0x88 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
  .text.set_default_use
-                0x000012cc       0x44 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
+                0x000012cc       0x44 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
  .text.init_bmp280
-                0x00001310       0x3c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
+                0x00001310       0x3c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
                 0x00001310                init_bmp280
- .text.measure  0x0000134c       0x94 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
+ .text.measure  0x0000134c       0x94 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
                 0x0000134c                measure
  .text.measure_temp
-                0x000013e0      0x174 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
+                0x000013e0      0x174 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
  *fill*         0x00001554        0x4 ff
  .text.measure_pressure
-                0x00001558      0x3c8 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
+                0x00001558      0x3c8 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
  .text.init_BUTTON
-                0x00001920       0x34 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
+                0x00001920       0x34 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
                 0x00001920                init_BUTTON
  .text.BUTTON_Hit
-                0x00001954       0x28 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
+                0x00001954       0x28 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
                 0x00001954                BUTTON_Hit
  .text.BUTTON_check
-                0x0000197c       0x82 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
+                0x0000197c       0x82 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
                 0x0000197c                BUTTON_check
  *fill*         0x000019fe        0x2 ff
  .text.BUTTON_GetButtonsEvents
-                0x00001a00       0x78 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
+                0x00001a00       0x78 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
                 0x00001a00                BUTTON_GetButtonsEvents
  .text.writeToFlash
-                0x00001a78       0x24 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
+                0x00001a78       0x24 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
                 0x00001a78                writeToFlash
  .text.readFromFlash
-                0x00001a9c       0x20 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
+                0x00001a9c       0x20 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
                 0x00001a9c                readFromFlash
  .text.FLASH_PrepareForWrite
-                0x00001abc       0x40 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
+                0x00001abc       0x40 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
  .text.FLASH_EraseSectors
-                0x00001afc       0x58 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
+                0x00001afc       0x58 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
                 0x00001afc                FLASH_EraseSectors
  .text.getSector
-                0x00001b54       0x26 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .text.getAddr  0x00001b7a       0x24 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
+                0x00001b54       0x26 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .text.getAddr  0x00001b7a       0x24 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
  *fill*         0x00001b9e        0x2 ff
  .text.FLASH_WriteData
-                0x00001ba0      0x124 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
+                0x00001ba0      0x124 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
                 0x00001ba0                FLASH_WriteData
  .text.FLASH_VerifyData
-                0x00001cc4       0x80 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
+                0x00001cc4       0x80 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
                 0x00001cc4                FLASH_VerifyData
  .text.LCDText_Send_4bits
-                0x00001d44       0x7c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
+                0x00001d44       0x7c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
  .text.LCDText_Write_4bits
-                0x00001dc0       0x2c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
+                0x00001dc0       0x2c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
  .text.init_LCDText
-                0x00001dec       0xc8 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
+                0x00001dec       0xc8 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
                 0x00001dec                init_LCDText
  .text.LCDText_WriteChar
-                0x00001eb4       0x9c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
+                0x00001eb4       0x9c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
                 0x00001eb4                LCDText_WriteChar
  .text.LCDText_WriteString
-                0x00001f50       0x3c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
+                0x00001f50       0x3c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
                 0x00001f50                LCDText_WriteString
  .text.LCDText_Locate
-                0x00001f8c       0x44 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
+                0x00001f8c       0x44 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
                 0x00001f8c                LCDText_Locate
  .text.LCDText_Cursor
-                0x00001fd0       0x28 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
+                0x00001fd0       0x28 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
                 0x00001fd0                LCDText_Cursor
  .text.LCDText_Clear
-                0x00001ff8       0x2c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
+                0x00001ff8       0x2c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
                 0x00001ff8                LCDText_Clear
  .text.init_led
-                0x00002024       0x1c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
+                0x00002024       0x1c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
                 0x00002024                init_led
  .text.turn_on_led
-                0x00002040       0x24 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
+                0x00002040       0x24 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
                 0x00002040                turn_on_led
  .text.turn_off_led
-                0x00002064       0x24 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
+                0x00002064       0x24 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
                 0x00002064                turn_off_led
  .text.init_peripherals
-                0x00002088       0x1a D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
+                0x00002088       0x1a D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
                 0x00002088                init_peripherals
  *fill*         0x000020a2        0x2 ff
  .text.init_RTC
-                0x000020a4       0x2c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
+                0x000020a4       0x2c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
                 0x000020a4                init_RTC
  .text.RTC_GetValue
-                0x000020d0       0x88 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
+                0x000020d0       0x88 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
                 0x000020d0                RTC_GetValue
  .text.RTC_SetMaskedValue
-                0x00002158      0x114 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
+                0x00002158      0x114 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
                 0x00002158                RTC_SetMaskedValue
  .text.RTC_SetValue
-                0x0000226c       0xc0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
+                0x0000226c       0xc0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
                 0x0000226c                RTC_SetValue
  .text.init_spi
-                0x0000232c       0x58 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
+                0x0000232c       0x58 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
                 0x0000232c                init_spi
  .text.SPI_ConfigTransfer
-                0x00002384       0xc0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
+                0x00002384       0xc0 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
                 0x00002384                SPI_ConfigTransfer
  .text.SPI_Transfer
-                0x00002444       0xa8 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
+                0x00002444       0xa8 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
                 0x00002444                SPI_Transfer
- .text.init_ui  0x000024ec       0x14 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
+ .text.init_ui  0x000024ec       0x14 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
                 0x000024ec                init_ui
  .text.NVIC_SetPriority
-                0x00002500       0x54 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
+                0x00002500       0x54 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
  .text.SysTick_Config
-                0x00002554       0x44 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
+                0x00002554       0x44 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
  .text.init_wait
-                0x00002598       0x5c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
+                0x00002598       0x5c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
                 0x00002598                init_wait
- .text.wait_ms  0x000025f4       0x2c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
+ .text.wait_ms  0x000025f4       0x2c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
                 0x000025f4                wait_ms
  .text.wait_elapsed
-                0x00002620       0x2c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
+                0x00002620       0x2c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
                 0x00002620                wait_elapsed
  .text.wait_ChronoUs
-                0x0000264c       0x42 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
+                0x0000264c       0x42 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
                 0x0000264c                wait_ChronoUs
  *fill*         0x0000268e        0x2 ff
  .text.SysTick_Handler
-                0x00002690       0x1c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
+                0x00002690       0x1c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
                 0x00002690                SysTick_Handler
  .text.__main   0x000026ac        0xe c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_semihost.a(_cr__main.o)
                 0x000026ac                __CR_SEMIHOST
@@ -1498,8 +1517,8 @@ END GROUP
                 0x00004d0c                MAX_TIMES
  .rodata        0x00004d14       0x54 ./src/data_storage.o
  .rodata        0x00004d68       0x28 ./src/view.o
- .rodata        0x00004d90        0x8 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .rodata        0x00004d98        0xc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
+ .rodata        0x00004d90        0x8 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .rodata        0x00004d98        0xc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
  .rodata.fp_display.str1.1
                 0x00004da4       0x34 c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(fpprintf.o)
                                  0x35 (size before relaxing)
@@ -1602,15 +1621,15 @@ END GROUP
                 0x10000074        0xc ./src/view.o
                 0x10000074                MAINTENANCE_CHANGE_TITLE
  .data.SystemCoreClock
-                0x10000080        0x4 D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+                0x10000080        0x4 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
                 0x10000080                SystemCoreClock
  .data.calib_signed_ptr
-                0x10000084       0x30 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
+                0x10000084       0x30 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
  .data.Flash_ADDR
-                0x100000b4        0x4 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .data.iap      0x100000b8        0x4 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
+                0x100000b4        0x4 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .data.iap      0x100000b8        0x4 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
  .data.sram_buffer
-                0x100000bc        0x4 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
+                0x100000bc        0x4 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
                 0x100000c0                . = ALIGN (0x4)
                 0x100000c0                _edata = .
 
@@ -1658,26 +1677,26 @@ END GROUP
  .bss.str       0x10000108       0x20 ./src/view.o
                 0x10000108                str
  .bss.calib_data
-                0x10000128       0x18 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
+                0x10000128       0x18 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
  .bss.current_temp
-                0x10000140        0x8 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
+                0x10000140        0x8 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
                 0x10000140                current_temp
  .bss.current_press
-                0x10000148        0x8 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
+                0x10000148        0x8 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
                 0x10000148                current_press
  .bss.buttons_state
-                0x10000150        0x6 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
+                0x10000150        0x6 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
                 0x10000150                buttons_state
  *fill*         0x10000156        0x2 
- .bss.cmd       0x10000158       0x14 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .bss.ret       0x1000016c       0x14 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .bss.row       0x10000180        0x2 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
+ .bss.cmd       0x10000158       0x14 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .bss.ret       0x1000016c       0x14 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .bss.row       0x10000180        0x2 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
                 0x10000180                row
- .bss.col       0x10000182        0x2 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
+ .bss.col       0x10000182        0x2 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
                 0x10000182                col
  .bss.led_state
-                0x10000184        0x4 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
- .bss.__ms      0x10000188        0x4 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
+                0x10000184        0x4 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+ .bss.__ms      0x10000188        0x4 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
  .bss._tms.4159
                 0x1000018c       0x24 c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(time.o)
  .bss.errno     0x100001b0        0x4 c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(errno.o)
@@ -1716,49 +1735,49 @@ END GROUP
                 0x00004f20                _image_size = (_image_end - _image_start)
 OUTPUT(project.axf elf32-littlearm)
 
-.debug_info     0x00000000     0x5e37
+.debug_info     0x00000000     0x5f4e
  .debug_info    0x00000000      0x276 ./src/cr_startup_lpc175x_6x.o
  .debug_info    0x00000276       0x40 ./src/crp.o
  .debug_info    0x000002b6      0x768 ./src/data_storage.o
  .debug_info    0x00000a1e      0x340 ./src/menu.o
- .debug_info    0x00000d5e      0x52d ./src/menu_maintenance.o
- .debug_info    0x0000128b      0x2be ./src/menu_normal.o
- .debug_info    0x00001549      0x2e3 ./src/project.o
- .debug_info    0x0000182c      0x34d ./src/view.o
- .debug_info    0x00001b79      0x37d D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
- .debug_info    0x00001ef6      0xa6f D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .debug_info    0x00002965      0x6b1 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
- .debug_info    0x00003016      0x14f D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .debug_info    0x00003165      0x3d3 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .debug_info    0x00003538      0x9cc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .debug_info    0x00003f04      0x43e D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
- .debug_info    0x00004342      0x201 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .debug_info    0x00004543      0x610 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .debug_info    0x00004b53      0x6d4 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
- .debug_info    0x00005227      0x201 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .debug_info    0x00005428      0xa0f D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
+ .debug_info    0x00000d5e      0x533 ./src/menu_maintenance.o
+ .debug_info    0x00001291      0x2be ./src/menu_normal.o
+ .debug_info    0x0000154f      0x2e3 ./src/project.o
+ .debug_info    0x00001832      0x34d ./src/view.o
+ .debug_info    0x00001b7f      0x37d D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+ .debug_info    0x00001efc      0xb80 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .debug_info    0x00002a7c      0x6b1 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+ .debug_info    0x0000312d      0x14f D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .debug_info    0x0000327c      0x3d3 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .debug_info    0x0000364f      0x9cc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .debug_info    0x0000401b      0x43e D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+ .debug_info    0x00004459      0x201 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .debug_info    0x0000465a      0x610 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .debug_info    0x00004c6a      0x6d4 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+ .debug_info    0x0000533e      0x201 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .debug_info    0x0000553f      0xa0f D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
 
-.debug_abbrev   0x00000000     0x1b68
+.debug_abbrev   0x00000000     0x1bba
  .debug_abbrev  0x00000000      0x12a ./src/cr_startup_lpc175x_6x.o
  .debug_abbrev  0x0000012a       0x38 ./src/crp.o
  .debug_abbrev  0x00000162      0x20e ./src/data_storage.o
  .debug_abbrev  0x00000370      0x15c ./src/menu.o
- .debug_abbrev  0x000004cc      0x179 ./src/menu_maintenance.o
- .debug_abbrev  0x00000645      0x109 ./src/menu_normal.o
- .debug_abbrev  0x0000074e      0x11b ./src/project.o
- .debug_abbrev  0x00000869      0x153 ./src/view.o
- .debug_abbrev  0x000009bc      0x11c D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
- .debug_abbrev  0x00000ad8      0x1da D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .debug_abbrev  0x00000cb2      0x1c1 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
- .debug_abbrev  0x00000e73       0xf7 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .debug_abbrev  0x00000f6a      0x164 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .debug_abbrev  0x000010ce      0x1fd D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .debug_abbrev  0x000012cb      0x139 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
- .debug_abbrev  0x00001404       0xca D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .debug_abbrev  0x000014ce      0x1ba D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .debug_abbrev  0x00001688      0x1a9 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
- .debug_abbrev  0x00001831       0xcc D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .debug_abbrev  0x000018fd      0x26b D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
+ .debug_abbrev  0x000004cc      0x1ba ./src/menu_maintenance.o
+ .debug_abbrev  0x00000686      0x109 ./src/menu_normal.o
+ .debug_abbrev  0x0000078f      0x11b ./src/project.o
+ .debug_abbrev  0x000008aa      0x153 ./src/view.o
+ .debug_abbrev  0x000009fd      0x11c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+ .debug_abbrev  0x00000b19      0x1eb D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .debug_abbrev  0x00000d04      0x1c1 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+ .debug_abbrev  0x00000ec5       0xf7 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .debug_abbrev  0x00000fbc      0x164 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .debug_abbrev  0x00001120      0x1fd D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .debug_abbrev  0x0000131d      0x139 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+ .debug_abbrev  0x00001456       0xca D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .debug_abbrev  0x00001520      0x1ba D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .debug_abbrev  0x000016da      0x1a9 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+ .debug_abbrev  0x00001883       0xcc D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .debug_abbrev  0x0000194f      0x26b D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
 
 .debug_aranges  0x00000000      0x560
  .debug_aranges
@@ -1778,29 +1797,29 @@ OUTPUT(project.axf elf32-littlearm)
  .debug_aranges
                 0x00000238       0x40 ./src/view.o
  .debug_aranges
-                0x00000278       0x28 D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+                0x00000278       0x28 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
  .debug_aranges
-                0x000002a0       0x58 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
+                0x000002a0       0x58 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
  .debug_aranges
-                0x000002f8       0x40 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
+                0x000002f8       0x40 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
  .debug_aranges
-                0x00000338       0x28 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
+                0x00000338       0x28 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
  .debug_aranges
-                0x00000360       0x50 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
+                0x00000360       0x50 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
  .debug_aranges
-                0x000003b0       0x68 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
+                0x000003b0       0x68 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
  .debug_aranges
-                0x00000418       0x38 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
+                0x00000418       0x38 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
  .debug_aranges
-                0x00000450       0x20 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
+                0x00000450       0x20 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
  .debug_aranges
-                0x00000470       0x48 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
+                0x00000470       0x48 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
  .debug_aranges
-                0x000004b8       0x30 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
+                0x000004b8       0x30 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
  .debug_aranges
-                0x000004e8       0x20 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
+                0x000004e8       0x20 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
  .debug_aranges
-                0x00000508       0x58 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
+                0x00000508       0x58 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
 
 .debug_ranges   0x00000000      0x418
  .debug_ranges  0x00000000       0x70 ./src/cr_startup_lpc175x_6x.o
@@ -1810,137 +1829,136 @@ OUTPUT(project.axf elf32-littlearm)
  .debug_ranges  0x000001a0       0x10 ./src/menu_normal.o
  .debug_ranges  0x000001b0       0x10 ./src/project.o
  .debug_ranges  0x000001c0       0x30 ./src/view.o
- .debug_ranges  0x000001f0       0x18 D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
- .debug_ranges  0x00000208       0x48 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .debug_ranges  0x00000250       0x30 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
- .debug_ranges  0x00000280       0x18 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .debug_ranges  0x00000298       0x40 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .debug_ranges  0x000002d8       0x58 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .debug_ranges  0x00000330       0x28 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
- .debug_ranges  0x00000358       0x10 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .debug_ranges  0x00000368       0x38 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .debug_ranges  0x000003a0       0x20 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
- .debug_ranges  0x000003c0       0x10 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .debug_ranges  0x000003d0       0x48 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
+ .debug_ranges  0x000001f0       0x18 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+ .debug_ranges  0x00000208       0x48 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .debug_ranges  0x00000250       0x30 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+ .debug_ranges  0x00000280       0x18 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .debug_ranges  0x00000298       0x40 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .debug_ranges  0x000002d8       0x58 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .debug_ranges  0x00000330       0x28 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+ .debug_ranges  0x00000358       0x10 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .debug_ranges  0x00000368       0x38 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .debug_ranges  0x000003a0       0x20 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+ .debug_ranges  0x000003c0       0x10 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .debug_ranges  0x000003d0       0x48 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
 
-.debug_macro    0x00000000     0x4ea0
+.debug_macro    0x00000000     0x4ed5
  .debug_macro   0x00000000       0x1d ./src/cr_startup_lpc175x_6x.o
  .debug_macro   0x0000001d      0xaa2 ./src/cr_startup_lpc175x_6x.o
  .debug_macro   0x00000abf       0x1a ./src/crp.o
  .debug_macro   0x00000ad9       0x34 ./src/crp.o
- .debug_macro   0x00000b0d      0x150 ./src/data_storage.o
- .debug_macro   0x00000c5d       0x10 ./src/data_storage.o
- .debug_macro   0x00000c6d      0x12e ./src/data_storage.o
- .debug_macro   0x00000d9b       0xa0 ./src/data_storage.o
- .debug_macro   0x00000e3b       0x1c ./src/data_storage.o
- .debug_macro   0x00000e57       0x3a ./src/data_storage.o
- .debug_macro   0x00000e91      0x5b3 ./src/data_storage.o
- .debug_macro   0x00001444       0x2d ./src/data_storage.o
- .debug_macro   0x00001471      0xbb1 ./src/data_storage.o
- .debug_macro   0x00002022      0x2c7 ./src/data_storage.o
- .debug_macro   0x000022e9       0x76 ./src/data_storage.o
- .debug_macro   0x0000235f       0x46 ./src/data_storage.o
- .debug_macro   0x000023a5       0x22 ./src/data_storage.o
- .debug_macro   0x000023c7       0x1c ./src/data_storage.o
- .debug_macro   0x000023e3       0x95 ./src/data_storage.o
- .debug_macro   0x00002478       0x52 ./src/data_storage.o
- .debug_macro   0x000024ca       0x10 ./src/data_storage.o
- .debug_macro   0x000024da       0xc4 ./src/data_storage.o
- .debug_macro   0x0000259e       0xa0 ./src/data_storage.o
- .debug_macro   0x0000263e       0xa0 ./src/data_storage.o
- .debug_macro   0x000026de       0x28 ./src/data_storage.o
- .debug_macro   0x00002706       0x10 ./src/data_storage.o
- .debug_macro   0x00002716       0x28 ./src/data_storage.o
- .debug_macro   0x0000273e      0x18b ./src/menu.o
- .debug_macro   0x000028c9       0x1c ./src/menu.o
- .debug_macro   0x000028e5      0x187 ./src/menu_maintenance.o
- .debug_macro   0x00002a6c      0x187 ./src/menu_normal.o
- .debug_macro   0x00002bf3      0x169 ./src/project.o
- .debug_macro   0x00002d5c      0x15a ./src/view.o
- .debug_macro   0x00002eb6      0x12d D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
- .debug_macro   0x00002fe3      0xaa2 D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
- .debug_macro   0x00003a85       0x96 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .debug_macro   0x00003b1b      0xaa2 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .debug_macro   0x000045bd       0x9a D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .debug_macro   0x00004657       0x9a D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .debug_macro   0x000046f1       0x87 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
- .debug_macro   0x00004778       0x70 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
- .debug_macro   0x000047e8       0x96 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .debug_macro   0x0000487e       0x22 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .debug_macro   0x000048a0       0x9b D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .debug_macro   0x0000493b       0xc8 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .debug_macro   0x00004a03       0x88 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
- .debug_macro   0x00004a8b      0x120 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .debug_macro   0x00004bab       0xac D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .debug_macro   0x00004c57       0x10 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .debug_macro   0x00004c67       0x87 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
- .debug_macro   0x00004cee       0xeb D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .debug_macro   0x00004dd9       0x87 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
- .debug_macro   0x00004e60       0x40 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
+ .debug_macro   0x00000b0d      0x15a ./src/data_storage.o
+ .debug_macro   0x00000c67       0x10 ./src/data_storage.o
+ .debug_macro   0x00000c77      0x12e ./src/data_storage.o
+ .debug_macro   0x00000da5       0xa0 ./src/data_storage.o
+ .debug_macro   0x00000e45       0x1c ./src/data_storage.o
+ .debug_macro   0x00000e61       0x3a ./src/data_storage.o
+ .debug_macro   0x00000e9b      0x5b3 ./src/data_storage.o
+ .debug_macro   0x0000144e       0x2d ./src/data_storage.o
+ .debug_macro   0x0000147b      0xbb1 ./src/data_storage.o
+ .debug_macro   0x0000202c      0x2c7 ./src/data_storage.o
+ .debug_macro   0x000022f3       0x76 ./src/data_storage.o
+ .debug_macro   0x00002369       0x46 ./src/data_storage.o
+ .debug_macro   0x000023af       0x22 ./src/data_storage.o
+ .debug_macro   0x000023d1       0x1c ./src/data_storage.o
+ .debug_macro   0x000023ed       0x95 ./src/data_storage.o
+ .debug_macro   0x00002482       0x52 ./src/data_storage.o
+ .debug_macro   0x000024d4       0x10 ./src/data_storage.o
+ .debug_macro   0x000024e4       0xc4 ./src/data_storage.o
+ .debug_macro   0x000025a8       0xa0 ./src/data_storage.o
+ .debug_macro   0x00002648       0x9a ./src/data_storage.o
+ .debug_macro   0x000026e2       0x28 ./src/data_storage.o
+ .debug_macro   0x0000270a       0x10 ./src/data_storage.o
+ .debug_macro   0x0000271a       0x28 ./src/data_storage.o
+ .debug_macro   0x00002742      0x195 ./src/menu.o
+ .debug_macro   0x000028d7       0x1c ./src/menu.o
+ .debug_macro   0x000028f3      0x191 ./src/menu_maintenance.o
+ .debug_macro   0x00002a84      0x191 ./src/menu_normal.o
+ .debug_macro   0x00002c15      0x173 ./src/project.o
+ .debug_macro   0x00002d88      0x164 ./src/view.o
+ .debug_macro   0x00002eec      0x12d D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00003019      0xaa2 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00003abb      0x12f D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .debug_macro   0x00003bea      0xaa2 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .debug_macro   0x0000468c       0x87 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+ .debug_macro   0x00004713       0x70 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+ .debug_macro   0x00004783       0x96 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .debug_macro   0x00004819       0x22 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .debug_macro   0x0000483b       0x9b D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .debug_macro   0x000048d6       0xc8 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .debug_macro   0x0000499e       0x88 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+ .debug_macro   0x00004a26      0x120 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .debug_macro   0x00004b46       0xac D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .debug_macro   0x00004bf2       0x10 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .debug_macro   0x00004c02       0x87 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+ .debug_macro   0x00004c89       0x9a D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+ .debug_macro   0x00004d23       0xeb D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .debug_macro   0x00004e0e       0x87 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+ .debug_macro   0x00004e95       0x40 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
 
-.debug_line     0x00000000     0x45a4
+.debug_line     0x00000000     0x47f1
  .debug_line    0x00000000      0x160 ./src/cr_startup_lpc175x_6x.o
  .debug_line    0x00000160       0xb1 ./src/crp.o
- .debug_line    0x00000211      0x5ff ./src/data_storage.o
- .debug_line    0x00000810      0x3a6 ./src/menu.o
- .debug_line    0x00000bb6      0x6e6 ./src/menu_maintenance.o
- .debug_line    0x0000129c      0x371 ./src/menu_normal.o
- .debug_line    0x0000160d      0x324 ./src/project.o
- .debug_line    0x00001931      0x373 ./src/view.o
- .debug_line    0x00001ca4      0x456 D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
- .debug_line    0x000020fa      0x4e0 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .debug_line    0x000025da      0x368 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
- .debug_line    0x00002942      0x248 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .debug_line    0x00002b8a      0x3d1 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .debug_line    0x00002f5b      0x3f9 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .debug_line    0x00003354      0x279 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
- .debug_line    0x000035cd      0x2b4 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .debug_line    0x00003881      0x3f3 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .debug_line    0x00003c74      0x318 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
- .debug_line    0x00003f8c      0x27d D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .debug_line    0x00004209      0x39b D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
+ .debug_line    0x00000211      0x627 ./src/data_storage.o
+ .debug_line    0x00000838      0x3c7 ./src/menu.o
+ .debug_line    0x00000bff      0x708 ./src/menu_maintenance.o
+ .debug_line    0x00001307      0x392 ./src/menu_normal.o
+ .debug_line    0x00001699      0x345 ./src/project.o
+ .debug_line    0x000019de      0x394 ./src/view.o
+ .debug_line    0x00001d72      0x461 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+ .debug_line    0x000021d3      0x578 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .debug_line    0x0000274b      0x37e D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+ .debug_line    0x00002ac9      0x25e D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .debug_line    0x00002d27      0x3e7 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .debug_line    0x0000310e      0x40f D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .debug_line    0x0000351d      0x28f D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+ .debug_line    0x000037ac      0x2ca D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .debug_line    0x00003a76      0x409 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .debug_line    0x00003e7f      0x32e D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+ .debug_line    0x000041ad      0x293 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .debug_line    0x00004440      0x3b1 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
 
-.debug_str      0x00000000     0xcbae
- .debug_str     0x00000000     0x2f7c ./src/cr_startup_lpc175x_6x.o
-                               0x2f8f (size before relaxing)
- .debug_str     0x00002f7c       0xe9 ./src/crp.o
-                               0x2e9c (size before relaxing)
- .debug_str     0x00003065     0x825c ./src/data_storage.o
-                               0xb0e2 (size before relaxing)
- .debug_str     0x0000b2c1       0xe3 ./src/menu.o
-                               0xaf05 (size before relaxing)
- .debug_str     0x0000b3a4      0x1de ./src/menu_maintenance.o
-                               0xb0b3 (size before relaxing)
- .debug_str     0x0000b582       0x26 ./src/menu_normal.o
-                               0xaee6 (size before relaxing)
- .debug_str     0x0000b5a8       0x23 ./src/project.o
-                               0xaeac (size before relaxing)
- .debug_str     0x0000b5cb       0x84 ./src/view.o
-                               0xaeb4 (size before relaxing)
- .debug_str     0x0000b64f      0x552 D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
-                               0xa215 (size before relaxing)
- .debug_str     0x0000bba1      0x573 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
-                               0xa70a (size before relaxing)
- .debug_str     0x0000c114       0x95 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
-                               0xa278 (size before relaxing)
- .debug_str     0x0000c1a9       0x3a D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
-                               0x9eb7 (size before relaxing)
- .debug_str     0x0000c1e3      0x250 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
-                               0xa0bf (size before relaxing)
- .debug_str     0x0000c433      0x197 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
-                               0xa8de (size before relaxing)
- .debug_str     0x0000c5ca       0x3d D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
-                               0x9f90 (size before relaxing)
- .debug_str     0x0000c607       0x26 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
-                               0xaad3 (size before relaxing)
- .debug_str     0x0000c62d      0x19a D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
-                               0xa3a9 (size before relaxing)
- .debug_str     0x0000c7c7       0x94 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
-                               0xa384 (size before relaxing)
- .debug_str     0x0000c85b       0x14 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
-                               0xa664 (size before relaxing)
- .debug_str     0x0000c86f      0x33f D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
-                               0xa355 (size before relaxing)
+.debug_str      0x00000000     0xcbcf
+ .debug_str     0x00000000     0x2f87 ./src/cr_startup_lpc175x_6x.o
+                               0x2f9a (size before relaxing)
+ .debug_str     0x00002f87       0xe9 ./src/crp.o
+                               0x2ea7 (size before relaxing)
+ .debug_str     0x00003070     0x825c ./src/data_storage.o
+                               0xb0ed (size before relaxing)
+ .debug_str     0x0000b2cc       0xe3 ./src/menu.o
+                               0xaf10 (size before relaxing)
+ .debug_str     0x0000b3af      0x1de ./src/menu_maintenance.o
+                               0xb0be (size before relaxing)
+ .debug_str     0x0000b58d       0x26 ./src/menu_normal.o
+                               0xaef1 (size before relaxing)
+ .debug_str     0x0000b5b3       0x23 ./src/project.o
+                               0xaeb7 (size before relaxing)
+ .debug_str     0x0000b5d6       0x84 ./src/view.o
+                               0xaebf (size before relaxing)
+ .debug_str     0x0000b65a      0x55d D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+                               0xa220 (size before relaxing)
+ .debug_str     0x0000bbb7      0x57e D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+                               0xb1ef (size before relaxing)
+ .debug_str     0x0000c135       0x95 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+                               0xa283 (size before relaxing)
+ .debug_str     0x0000c1ca       0x3a D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+                               0x9ec2 (size before relaxing)
+ .debug_str     0x0000c204      0x250 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+                               0xa0ca (size before relaxing)
+ .debug_str     0x0000c454      0x197 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+                               0xa8e9 (size before relaxing)
+ .debug_str     0x0000c5eb       0x3d D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+                               0x9f9b (size before relaxing)
+ .debug_str     0x0000c628       0x26 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+                               0xaade (size before relaxing)
+ .debug_str     0x0000c64e      0x19a D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+                               0xa3b4 (size before relaxing)
+ .debug_str     0x0000c7e8       0x94 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+                               0xa38f (size before relaxing)
+ .debug_str     0x0000c87c       0x14 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+                               0xa66f (size before relaxing)
+ .debug_str     0x0000c890      0x33f D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+                               0xa360 (size before relaxing)
 
 .comment        0x00000000       0x75
  .comment       0x00000000       0x75 ./src/cr_startup_lpc175x_6x.o
@@ -1952,18 +1970,18 @@ OUTPUT(project.axf elf32-littlearm)
  .comment       0x00000075       0x76 ./src/menu_normal.o
  .comment       0x00000075       0x76 ./src/project.o
  .comment       0x00000075       0x76 ./src/view.o
- .comment       0x00000075       0x76 D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
- .comment       0x00000075       0x76 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .comment       0x00000075       0x76 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
- .comment       0x00000075       0x76 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .comment       0x00000075       0x76 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .comment       0x00000075       0x76 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .comment       0x00000075       0x76 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
- .comment       0x00000075       0x76 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .comment       0x00000075       0x76 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .comment       0x00000075       0x76 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
- .comment       0x00000075       0x76 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .comment       0x00000075       0x76 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
+ .comment       0x00000075       0x76 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+ .comment       0x00000075       0x76 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .comment       0x00000075       0x76 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+ .comment       0x00000075       0x76 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .comment       0x00000075       0x76 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .comment       0x00000075       0x76 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .comment       0x00000075       0x76 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+ .comment       0x00000075       0x76 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .comment       0x00000075       0x76 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .comment       0x00000075       0x76 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+ .comment       0x00000075       0x76 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .comment       0x00000075       0x76 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
  .comment       0x00000075       0x76 c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_semihost.a(_cr__main.o)
  .comment       0x00000075       0x76 c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(memcpy.o)
  .comment       0x00000075       0x76 c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(fpprintf.o)
@@ -2012,29 +2030,29 @@ OUTPUT(project.axf elf32-littlearm)
  .ARM.attributes
                 0x00000141       0x2d ./src/view.o
  .ARM.attributes
-                0x0000016e       0x2d D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+                0x0000016e       0x2d D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
  .ARM.attributes
-                0x0000019b       0x2d D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
+                0x0000019b       0x2d D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
  .ARM.attributes
-                0x000001c8       0x2d D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
+                0x000001c8       0x2d D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
  .ARM.attributes
-                0x000001f5       0x2d D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
+                0x000001f5       0x2d D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
  .ARM.attributes
-                0x00000222       0x2d D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
+                0x00000222       0x2d D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
  .ARM.attributes
-                0x0000024f       0x2d D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
+                0x0000024f       0x2d D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
  .ARM.attributes
-                0x0000027c       0x2d D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
+                0x0000027c       0x2d D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
  .ARM.attributes
-                0x000002a9       0x2d D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
+                0x000002a9       0x2d D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
  .ARM.attributes
-                0x000002d6       0x2d D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
+                0x000002d6       0x2d D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
  .ARM.attributes
-                0x00000303       0x2d D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
+                0x00000303       0x2d D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
  .ARM.attributes
-                0x00000330       0x2d D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
+                0x00000330       0x2d D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
  .ARM.attributes
-                0x0000035d       0x2d D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
+                0x0000035d       0x2d D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
  .ARM.attributes
                 0x0000038a       0x2d c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_semihost.a(_cr__main.o)
  .ARM.attributes
@@ -2118,31 +2136,31 @@ OUTPUT(project.axf elf32-littlearm)
  .debug_frame   0x0000062c       0x2c ./src/menu_normal.o
  .debug_frame   0x00000658       0x30 ./src/project.o
  .debug_frame   0x00000688       0xa4 ./src/view.o
- .debug_frame   0x0000072c       0x3c D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
- .debug_frame   0x00000768      0x13c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
- .debug_frame   0x000008a4       0xc8 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
- .debug_frame   0x0000096c       0x5c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
- .debug_frame   0x000009c8      0x114 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
- .debug_frame   0x00000adc      0x180 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
- .debug_frame   0x00000c5c       0x8c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
- .debug_frame   0x00000ce8       0x2c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
- .debug_frame   0x00000d14       0xf4 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
- .debug_frame   0x00000e08       0x80 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
- .debug_frame   0x00000e88       0x2c D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
- .debug_frame   0x00000eb4      0x138 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
+ .debug_frame   0x0000072c       0x3c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+ .debug_frame   0x00000768      0x13c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
+ .debug_frame   0x000008a4       0xc8 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+ .debug_frame   0x0000096c       0x5c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
+ .debug_frame   0x000009c8      0x114 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+ .debug_frame   0x00000adc      0x180 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+ .debug_frame   0x00000c5c       0x8c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+ .debug_frame   0x00000ce8       0x2c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+ .debug_frame   0x00000d14       0xf4 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+ .debug_frame   0x00000e08       0x80 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+ .debug_frame   0x00000e88       0x2c D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+ .debug_frame   0x00000eb4      0x138 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
 
 Cross Reference Table
 
 Symbol                                            File
 ADC_IRQHandler                                    ./src/cr_startup_lpc175x_6x.o
 BOD_IRQHandler                                    ./src/cr_startup_lpc175x_6x.o
-BUTTON_GetButtonsEvents                           D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
+BUTTON_GetButtonsEvents                           D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
                                                   ./src/menu_normal.o
                                                   ./src/menu_maintenance.o
                                                   ./src/menu.o
-BUTTON_Hit                                        D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
-BUTTON_Read                                       D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
-BUTTON_check                                      D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
+BUTTON_Hit                                        D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+BUTTON_Read                                       D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+BUTTON_check                                      D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
 BusFault_Handler                                  ./src/cr_startup_lpc175x_6x.o
 CANActivity_IRQHandler                            ./src/cr_startup_lpc175x_6x.o
 CAN_IRQHandler                                    ./src/cr_startup_lpc175x_6x.o
@@ -2156,29 +2174,29 @@ EINT1_IRQHandler                                  ./src/cr_startup_lpc175x_6x.o
 EINT2_IRQHandler                                  ./src/cr_startup_lpc175x_6x.o
 EINT3_IRQHandler                                  ./src/cr_startup_lpc175x_6x.o
 ENET_IRQHandler                                   ./src/cr_startup_lpc175x_6x.o
-FLASH_BlankSectors                                D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
-FLASH_EraseSectors                                D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
-FLASH_VerifyData                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
-FLASH_WriteData                                   D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
+FLASH_BlankSectors                                D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+FLASH_EraseSectors                                D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+FLASH_VerifyData                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+FLASH_WriteData                                   D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
 HardFault_Handler                                 ./src/cr_startup_lpc175x_6x.o
 I2C0_IRQHandler                                   ./src/cr_startup_lpc175x_6x.o
 I2C1_IRQHandler                                   ./src/cr_startup_lpc175x_6x.o
 I2C2_IRQHandler                                   ./src/cr_startup_lpc175x_6x.o
 I2S_IRQHandler                                    ./src/cr_startup_lpc175x_6x.o
 IntDefaultHandler                                 ./src/cr_startup_lpc175x_6x.o
-LCDText_Clear                                     D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
+LCDText_Clear                                     D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
                                                   ./src/menu_maintenance.o
                                                   ./src/menu.o
-LCDText_Cursor                                    D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
+LCDText_Cursor                                    D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
                                                   ./src/menu_maintenance.o
-LCDText_Locate                                    D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
+LCDText_Locate                                    D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
                                                   ./src/view.o
                                                   ./src/menu_maintenance.o
-LCDText_PrintBinary                               D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
-LCDText_Printf                                    D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
-LCDText_WriteChar                                 D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
-LCDText_WriteString                               D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
+LCDText_PrintBinary                               D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+LCDText_Printf                                    D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+LCDText_WriteChar                                 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+LCDText_WriteString                               D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
                                                   ./src/view.o
 MAINTENANCE_CHANGE_TITLE                          ./src/view.o
 MAX_DATES                                         ./src/data_storage.o
@@ -2192,32 +2210,32 @@ PWM1_IRQHandler                                   ./src/cr_startup_lpc175x_6x.o
 PendSV_Handler                                    ./src/cr_startup_lpc175x_6x.o
 QEI_IRQHandler                                    ./src/cr_startup_lpc175x_6x.o
 RIT_IRQHandler                                    ./src/cr_startup_lpc175x_6x.o
-RTC_GetSeconds                                    D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
-RTC_GetValue                                      D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
+RTC_GetSeconds                                    D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+RTC_GetValue                                      D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
                                                   ./src/data_storage.o
 RTC_IRQHandler                                    ./src/cr_startup_lpc175x_6x.o
-RTC_SetMaskedValue                                D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
+RTC_SetMaskedValue                                D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
                                                   ./src/data_storage.o
-RTC_SetSconds                                     D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
-RTC_SetValue                                      D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
+RTC_SetSconds                                     D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+RTC_SetValue                                      D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
 ResetISR                                          ./src/cr_startup_lpc175x_6x.o
 SEC_CHARACTER                                     ./src/data_storage.o
-SPI_ConfigTransfer                                D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
+SPI_ConfigTransfer                                D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
 SPI_IRQHandler                                    ./src/cr_startup_lpc175x_6x.o
-SPI_Transfer                                      D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
+SPI_Transfer                                      D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
 SSP0_IRQHandler                                   ./src/cr_startup_lpc175x_6x.o
 SSP1_IRQHandler                                   ./src/cr_startup_lpc175x_6x.o
 SVC_Handler                                       ./src/cr_startup_lpc175x_6x.o
-SysTick_Handler                                   D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
+SysTick_Handler                                   D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
                                                   ./src/cr_startup_lpc175x_6x.o
-SystemCoreClock                                   D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
-SystemCoreClockUpdate                             D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
-SystemInit                                        D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+SystemCoreClock                                   D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
+SystemCoreClockUpdate                             D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+SystemInit                                        D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
                                                   ./src/cr_startup_lpc175x_6x.o
 TEMPERATURE_UNIT                                  ./src/data_storage.o
 TIMER0_IRQHandler                                 ./src/cr_startup_lpc175x_6x.o
@@ -2252,14 +2270,14 @@ __aeabi_cdrcmple                                  c:/nxp/mcuxpressoide_11.0.1_25
 __aeabi_d2f                                       c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(double.o)
 __aeabi_d2iz                                      c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(double.o)
                                                   c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(fpprintf.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
 __aeabi_d2lz                                      c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(double.o)
 __aeabi_d2uiz                                     c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(double.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
 __aeabi_d2ulz                                     c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(double.o)
 __aeabi_dadd                                      c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(double.o)
                                                   c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(fpprintf.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
                                                   ./src/data_storage.o
 __aeabi_dcmpeq                                    c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(double.o)
                                                   c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(_ldexpl.o)
@@ -2275,29 +2293,29 @@ __aeabi_dcmplt                                    c:/nxp/mcuxpressoide_11.0.1_25
 __aeabi_dcmpun                                    c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(double.o)
 __aeabi_ddiv                                      c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(double.o)
                                                   c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(fpprintf.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
                                                   ./src/data_storage.o
 __aeabi_dmul                                      c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(double.o)
                                                   c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(fpprintf.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
                                                   ./src/data_storage.o
 __aeabi_dneg                                      c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(double.o)
 __aeabi_drsub                                     c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(double.o)
 __aeabi_dsub                                      c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(double.o)
                                                   c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(time.o)
                                                   c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(fpprintf.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
 __aeabi_i2d                                       c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(double.o)
                                                   c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(fpprintf.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
 __aeabi_idiv0                                     c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(division_idiv0.o)
                                                   c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(division_64.o)
 __aeabi_l2d                                       c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(double.o)
 __aeabi_ldivmod                                   c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(division_64.o)
-                                                  D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
 __aeabi_lowlevel_memset                           c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(memcpy.o)
                                                   c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(memset.o)
 __aeabi_memclr                                    c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(memcpy.o)
@@ -2315,10 +2333,10 @@ __aeabi_memset4                                   c:/nxp/mcuxpressoide_11.0.1_25
 __aeabi_memset8                                   c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(memcpy.o)
 __aeabi_ui2d                                      c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(double.o)
                                                   c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(time.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
 __aeabi_ul2d                                      c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(double.o)
 __aeabi_uldivmod                                  c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(division_64.o)
-                                                  D:\Isel\19-20\Inverno\SE1\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug\libCMSIS_CORE_LPC17xx.a(system_LPC17xx.o)
 __bhs_ldivmod1                                    c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(division_64.o)
 __bhs_ui2d                                        c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(double.o)
 __bhs_ul2d                                        c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(double.o)
@@ -2404,7 +2422,7 @@ bss_init                                          ./src/cr_startup_lpc175x_6x.o
 button_map                                        ./src/menu.o
                                                   ./src/menu_normal.o
                                                   ./src/menu_maintenance.o
-buttons_state                                     D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
+buttons_state                                     D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
 calloc                                            c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(alloc.o)
 change_date                                       ./src/data_storage.o
                                                   ./src/menu_maintenance.o
@@ -2412,7 +2430,7 @@ change_temp_unit                                  ./src/data_storage.o
                                                   ./src/menu_maintenance.o
 change_time                                       ./src/data_storage.o
                                                   ./src/menu_maintenance.o
-col                                               D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
+col                                               D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
 count                                             ./src/menu.o
                                                   ./src/menu_normal.o
                                                   ./src/menu_maintenance.o
@@ -2420,9 +2438,9 @@ count_10                                          ./src/menu_maintenance.o
 count_continuos_pressing                          ./src/menu_maintenance.o
 count_pressing_button                             ./src/menu_maintenance.o
 ctime                                             c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(time.o)
-current_press                                     D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
+current_press                                     D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
                                                   ./src/data_storage.o
-current_temp                                      D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
+current_temp                                      D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
                                                   ./src/data_storage.o
 data_init                                         ./src/cr_startup_lpc175x_6x.o
 dateTime                                          ./src/data_storage.o
@@ -2459,34 +2477,34 @@ get_Temperature                                   ./src/data_storage.o
                                                   ./src/view.o
 get_Time                                          ./src/data_storage.o
                                                   ./src/view.o
-get_chip_ID                                       D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
+get_chip_ID                                       D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
 gmtime                                            c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(time.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
-init_BUTTON                                       D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(button.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
-init_LCDText                                      D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
-init_RTC                                          D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
-init_bmp280                                       D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+init_BUTTON                                       D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(button.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+init_LCDText                                      D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+init_RTC                                          D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+init_bmp280                                       D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
                                                   ./src/menu.o
 init_data_st                                      ./src/data_storage.o
                                                   ./src/menu.o
-init_led                                          D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
+init_led                                          D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
 init_menu                                         ./src/menu.o
                                                   ./src/project.o
-init_peripherals                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
+init_peripherals                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
                                                   ./src/menu.o
-init_spi                                          D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(spi.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
-init_ui                                           D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(ui.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
-init_wait                                         D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(peripherals.o)
+init_spi                                          D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(spi.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+init_ui                                           D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(ui.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
+init_wait                                         D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(peripherals.o)
 itoa                                              c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(itoa.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
-led_get_state                                     D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+led_get_state                                     D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
 localtime                                         c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(time.o)
 main                                              ./src/project.o
                                                   c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_semihost.a(_cr__main.o)
@@ -2495,11 +2513,11 @@ maintenance_execution                             ./src/menu_maintenance.o
 malloc                                            c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(alloc.o)
                                                   c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(printf.o)
                                                   c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(fpprintf.o)
-measure                                           D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(BMP280.o)
+measure                                           D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(BMP280.o)
                                                   ./src/data_storage.o
 memcpy                                            c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(memcpy.o)
                                                   c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(alloc.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(iap.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(iap.o)
 memset                                            c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(memset.o)
                                                   c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(fclose.o)
                                                   c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(alloc.o)
@@ -2507,7 +2525,7 @@ memset                                            c:/nxp/mcuxpressoide_11.0.1_25
                                                   c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(printf.o)
                                                   c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(fpprintf.o)
 mktime                                            c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(time.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(rtc.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(rtc.o)
 mode                                              ./src/menu_maintenance.o
 mode_idx                                          ./src/menu_maintenance.o
 nextField                                         ./src/data_storage.o
@@ -2517,13 +2535,13 @@ normal_execution                                  ./src/menu_normal.o
                                                   ./src/menu.o
 printf                                            c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(fpprintf.o)
 printf_char                                       c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(fpprintf.o)
-readFromFlash                                     D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
+readFromFlash                                     D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
                                                   ./src/data_storage.o
 realloc                                           c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(alloc.o)
 remove                                            c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(remove.o)
                                                   c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(fclose.o)
 rename                                            c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(remove.o)
-row                                               D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
+row                                               D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
 send_date                                         ./src/data_storage.o
                                                   ./src/menu_maintenance.o
 send_dateTime                                     ./src/data_storage.o
@@ -2543,11 +2561,11 @@ strlen                                            c:/nxp/mcuxpressoide_11.0.1_25
 strncpy                                           c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(strncpy.o)
                                                   c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(time.o)
 temperatureUnit                                   ./src/data_storage.o
-turn_off_led                                      D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
+turn_off_led                                      D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
                                                   ./src/menu_normal.o
                                                   ./src/menu_maintenance.o
                                                   ./src/menu.o
-turn_on_led                                       D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(led.o)
+turn_on_led                                       D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(led.o)
                                                   ./src/menu_normal.o
                                                   ./src/menu_maintenance.o
                                                   ./src/menu.o
@@ -2571,14 +2589,14 @@ view_normal                                       ./src/view.o
 vprintf                                           c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(fpprintf.o)
 vsnprintf                                         c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(fpprintf.o)
 vsprintf                                          c:/nxp/mcuxpressoide_11.0.1_2563/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.1.201907311258/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(fpprintf.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
-wait_ChronoUs                                     D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
-wait_elapsed                                      D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+wait_ChronoUs                                     D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+wait_elapsed                                      D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
                                                   ./src/menu_maintenance.o
                                                   ./src/menu.o
-wait_hz                                           D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
-wait_ms                                           D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(wait.o)
-                                                  D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(lcd.o)
-writeToFlash                                      D:\Isel\19-20\Inverno\SE1\SE1920\Debug\libSE1920.a(flash.o)
+wait_hz                                           D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+wait_ms                                           D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(wait.o)
+                                                  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(lcd.o)
+writeToFlash                                      D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug\libSE1920.a(flash.o)
                                                   ./src/data_storage.o
