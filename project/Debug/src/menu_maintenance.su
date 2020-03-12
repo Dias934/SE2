@@ -1,15 +1,1 @@
-menu_maintenance.c:138:8:maintenance_execution	8	static
-menu_maintenance.c:169:6:maintenance_buttons_interaction	8	static
-menu_maintenance.c:190:6:select_up_pressed	16	static
-menu_maintenance.c:197:6:select_down_pressed	16	static
-menu_maintenance.c:205:6:select_enter_pressed	8	static
-menu_maintenance.c:212:6:select_field	8	static
-menu_maintenance.c:218:6:time_up_down_pressed	24	static
-menu_maintenance.c:228:6:time_enter_pressed	8	static
-menu_maintenance.c:240:6:date_up_down_pressed	24	static
-menu_maintenance.c:250:6:date_enter_pressed	8	static
-menu_maintenance.c:262:6:temp_up_down_pressed	16	static
-menu_maintenance.c:272:6:temp_enter_pressed	8	static
-menu_maintenance.c:281:6:maintenance_change_time	8	static
-menu_maintenance.c:287:6:maintenance_change_date	16	static
-menu_maintenance.c:293:6:maintenance_change_temperature_units	8	static
+menu_maintenance.c:29:8:general_maintenance_actions	16	static

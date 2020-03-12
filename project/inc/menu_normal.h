@@ -10,7 +10,7 @@
 #define MENU_NORMAL_H_
 
 #include "menu.h"
-#include "menu_maintenance.h"
+#include "select_maintenance.h"
 /** @defgroup MENU_NORMAL Menu Normal
  * This package provides the core capability of Menu Normal mode.
  * @{

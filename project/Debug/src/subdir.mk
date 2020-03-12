@@ -4,34 +4,49 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../src/calendar_maintenance.c \
 ../src/cr_startup_lpc175x_6x.c \
 ../src/crp.c \
-../src/data_storage.c \
+../src/data_manager.c \
+../src/init_menu.c \
 ../src/menu.c \
 ../src/menu_maintenance.c \
 ../src/menu_normal.c \
 ../src/project.c \
-../src/view.c 
+../src/select_maintenance.c \
+../src/temperature_unit_maintenance.c \
+../src/time_maintenance.c \
+../src/viewLCDText.c 
 
 OBJS += \
+./src/calendar_maintenance.o \
 ./src/cr_startup_lpc175x_6x.o \
 ./src/crp.o \
-./src/data_storage.o \
+./src/data_manager.o \
+./src/init_menu.o \
 ./src/menu.o \
 ./src/menu_maintenance.o \
 ./src/menu_normal.o \
 ./src/project.o \
-./src/view.o 
+./src/select_maintenance.o \
+./src/temperature_unit_maintenance.o \
+./src/time_maintenance.o \
+./src/viewLCDText.o 
 
 C_DEPS += \
+./src/calendar_maintenance.d \
 ./src/cr_startup_lpc175x_6x.d \
 ./src/crp.d \
-./src/data_storage.d \
+./src/data_manager.d \
+./src/init_menu.d \
 ./src/menu.d \
 ./src/menu_maintenance.d \
 ./src/menu_normal.d \
 ./src/project.d \
-./src/view.d 
+./src/select_maintenance.d \
+./src/temperature_unit_maintenance.d \
+./src/time_maintenance.d \
+./src/viewLCDText.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

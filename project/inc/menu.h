@@ -10,8 +10,9 @@
 #ifndef MENU_H_
 #define MENU_H_
 
+#include "viewLCDText.h"
 #include "peripherals.h"
-#include "view.h"
+
 /** @defgroup MENU Menu
  * This package provides the core capability of Menu.
  * @{
@@ -58,12 +59,12 @@ extern int button_map;
  * @brief initialize menu
  * @note must be called first
  */
-void *init_menu();
+
 /**
- * @brief manage the up and down button function time. If up and down button are pressed
+ * @brief manage the request to change menu
  *
  */
-void *up_and_down_pressed(void *origen(), void *destiny(), void (*led_state)());
+void *request_change_menu(void *origen(), void *destiny());
 /**
  * @}
  * @}

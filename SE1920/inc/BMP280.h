@@ -111,6 +111,9 @@ typedef struct{
  *  @brief	sensor temperature data address
 */
 #define TEMPERATURE_DATA_ADDR 0xFA
+
+#define TRANSF_ERROR 90
+
 /** @defgroup BMP280_Public_CALIBRATION_DATA_ADDRESS BMP280 Public Calibration data address range
  * @{
 */
@@ -206,6 +209,8 @@ enum FILTER_COEF_VAL{
 	FILTER_8,
 	FILTER_16
 };
+
+
 /**
  *  @brief	refers to the sensor time settings
 */
@@ -230,8 +235,9 @@ enum T_SB_VAL{
  */
 /**
  * @brief Call this function only at the beginning of the program and only once
+ * @return 0 if init was OK
  */
-void init_bmp280();
+int init_bmp280();
 /**
  *  @return this function returns the sensor ID
 */

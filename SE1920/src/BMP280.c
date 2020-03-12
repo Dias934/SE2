@@ -44,12 +44,16 @@ static void set_default_use(){
 	write_spi(tx, rx, 4);
 }
 
-void init_bmp280(){
+int init_bmp280(){
 	LPC_PINCON->PINSEL0&=~(3<<18);
 	LPC_GPIO0->FIODIR|=(1<<CS_PIN);
 	LPC_GPIO0->FIOSET|=(1<<CS_PIN);
-	get_calib_data();
-	set_default_use();
+	if(get_chip_ID()==ID_VALUE){
+		get_calib_data();
+		set_default_use();
+		return 0;
+	}
+	return 1;
 }
 
 int get_chip_ID(){
@@ -62,17 +66,27 @@ int get_chip_ID(){
 	return ret;
 }
 
+int not_valid_data(unsigned short *rx, int length){
+	for(int i=0;i<length;i++){
+		if(rx[i]!=255)
+			return 1;
+	}
+	return 0;
+}
+
 int measure(){
 	unsigned short tx[7]={PRESSURE_DATA_ADDR&RD,0,0,0,0,0,0};
 		unsigned short rx[7]={0,0,0,0,0,0,0};
 	SPI_ConfigTransfer(SPI_FREQUENCY,EIGHT_BITS,CPHA_CPOL_LL);
 	int ret=write_spi(tx, rx, 7);
-	if(ret==SPIF){
+	if(ret==SPIF && not_valid_data(rx, 7)!=0){
 		unsigned int adc_p=rx[1]<<12 | rx[2]<<4 | rx[3]>>4;
 		unsigned int adc_t=rx[4]<<12 | rx[5]<<4 | rx[6]>>4;
 		int t_fine=measure_temp(adc_t);
 		measure_pressure(adc_p,t_fine);
 	}
+	else
+		return TRANSF_ERROR;
 	return ret;
 }
 

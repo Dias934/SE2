@@ -48,7 +48,7 @@
  * @}
  * @brief time masks
  */
-#define TIME_MASK HOUR_MASK | MIN_MASK
+#define TIME_MASK HOUR_MASK | MIN_MASK | SEC_MASK
 
 /**
  * @}
@@ -62,6 +62,60 @@
 #define MAX_YEAR 4096
 #define MAX_MONTH 12
 #define MAX_DAY 31
+
+/**
+ * @brief Enum that contain the max day value for each month
+ */
+enum MAX_DAYS_IN_MONTH {
+	JANUARY_DAYS = 31,
+	FEBRUARY_DAYS = 28,
+	MARCH_DAYS = 31,
+	APRIL_DAYS = 30,
+	MAY_DAYS = 31,
+	JUNE_DAYS = 30,
+	JULY_DAYS = 31,
+	AUGUST_DAYS = 31,
+	SEPTEMBER_DAYS = 30,
+	OCTOBER_DAYS = 31,
+	NOVEMBER_DAYS = 30,
+	DECEMBER_DAYS = 31
+};
+
+/**
+ * @brief Array that contains the MAX_DAYS_IN_MONTH variables
+ */
+static const enum MAX_DAYS_IN_MONTH MAX_DAYS_MAP[] ={
+		JANUARY_DAYS,
+		FEBRUARY_DAYS,
+		MARCH_DAYS,
+		APRIL_DAYS,
+		MAY_DAYS,
+		JUNE_DAYS,
+		JULY_DAYS,
+		AUGUST_DAYS,
+		SEPTEMBER_DAYS,
+		OCTOBER_DAYS,
+		NOVEMBER_DAYS,
+		DECEMBER_DAYS
+};
+
+/**
+ * @brief Enum that contain the name of each month
+ */
+enum MONTH{
+	JANUARY,
+	FEBRUARY,
+	MARCH,
+	APRIL,
+	MAY,
+	JUNE,
+	JULY,
+	AUGUST,
+	SEPTEMBER,
+	OCTOBER,
+	NOVEMBER,
+	DECEMBER
+};
 
 /**
  * @}
@@ -85,7 +139,7 @@
  * @}
  * @brief date masks
  */
-#define DATE_MASK YEAR_MASK | MONTH_MASK | DOM_MASK
+#define CALENDAR_MASK YEAR_MASK | MONTH_MASK | DOM_MASK
 /**
  * @defgroup RTC_Public_DATE_ADJUSTMENTS RTC Public Date Adjustments
  * @{

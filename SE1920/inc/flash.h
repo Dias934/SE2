@@ -20,11 +20,21 @@
 /**
  * @brief sector that will be used
  */
-#define SECTOR 29
+#define SECTOR_MAX 29
+
+#define SECTOR_THRESHOLD 16
+
 /**
  * @brief initial address from sector 29
  */
-#define ADDR 0x00078000
+#define SECTOR_INTERVAL_4K 0x00001000
+#define SECTOR_INTERVAL_32K 0x00008000
+
+enum INIT_STATS{
+	SECTOR_FOUND,
+	SECTOR_AVAILABLE,
+	SECTOR_NOT_FOUND
+};
 /**
  * @}
  */
