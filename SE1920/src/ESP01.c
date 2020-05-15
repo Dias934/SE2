@@ -77,10 +77,13 @@ int send_response(char * data, int len){
 				memcpy(str, data+idx+1, end_idx-idx-1);
 				n_bytes=atoi(str);
 				n_bytes-=bytes-end_idx+1;
-				data=data+end_idx+1;	//filter ESP command
+				memcpy(data, data+end_idx+1,bytes-end_idx+1);	//filter ESP command
+				bytes-=end_idx+1;
+				if(n_bytes<=0)		//if we read all the data then go to IDLE mode
+					reset_mode();
 			}
 		}
-		if((n_bytes-=bytes )<=0) //if we read all the data then go to IDLE mode
+		else if((n_bytes-=bytes )<=0) //if we read all the data then go to IDLE mode
 			reset_mode();
 	}
 	return bytes;
@@ -99,7 +102,7 @@ int feedback_CMD(char * data, int len){
 	int bytes=0;
 	switch(ESP_mode){
 	case AT_IDLE: break;
-	case AT_SET_CWJAP_CUR:{ //avoid printing the wifi password
+	case AT_SET_CWJAP_CUR:{ //avoid printing the wifi sensitive information
 		char * str=malloc(20);
 		bytes=ESP_cmd_response(str, 20);
 		free(str);
@@ -205,15 +208,32 @@ void quit_WIFI_conn_AP(){
 	}
 }
 
-void point_conn_status(){
+int point_conn_status(){
+	int state=AT_UNAVAILABLE;
 	if(ESP_mode==AT_IDLE){
 		char aux[13];
 		strcpy(aux,CMD_START);
 		UART_WriteBuffer(strcat(strcat(aux,CMD_CIPSTATUS),CMD_END), strlen(aux));
-		ESP_mode=AT_CIPSTATUS;
 		passed_time=wait_elapsed(0);
 		fill_interval=wait_elapsed(0);
+		bool exit=false;
+		char * str=malloc(20);
+		while(wait_elapsed(passed_time) < timeout && !exit){
+			int bytes=read_cmd_response(str, 20);
+			if(bytes !=0 ){	//if we received a message
+				int idx=check_response(bytes, str, STATUS_RESPONSE_SIZE, STATUS_RESPONSE);
+				if( idx >= 0){
+					memcpy(str, str+idx+1, 1);
+					str[1]=0;
+					state=atoi(str);
+					exit=true;
+				}
+			}
+		}
+		free(str);
+		reset_mode();
 	}
+	return state;
 }
 
 void start_point_conn(char * type, char * remote_ip, int remote_port){

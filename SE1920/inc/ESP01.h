@@ -54,6 +54,9 @@
 #define RECEIVED_DATA_RESPONSE "+IPD,"
 #define RECEIVED_DATA_RESPONSE_SIZE 5
 
+#define STATUS_RESPONSE "STATUS:"
+#define STATUS_RESPONSE_SIZE 7
+
 
 enum ESP_CMD_STATE{
 	AT_IDLE=0,
@@ -71,6 +74,14 @@ enum ESP_CMD_STATE{
 	AT_SET_CIPSEND,
 	AT_EX_CIPCLOSE,
 	AT_CIFSR
+};
+
+enum ESP_CONN_STATUS{
+	AT_UNAVAILABLE=-1,
+	AP_AND_IP_OBTN=2,
+	TRANS_CONN,
+	TRANS_DISC,
+	NO_AP
 };
 
 extern int ESP_mode;
@@ -93,7 +104,7 @@ void query_WIFI_conn_AP();
 
 void quit_WIFI_conn_AP();
 
-void point_conn_status();
+int point_conn_status();
 
 void start_point_conn(char * type, char * remote_ip, int remote_port);
 

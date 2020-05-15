@@ -1,7 +1,7 @@
 /*
 ===============================================================================
  Name        : project.c
- Author      : $(Ricardo Romano, André Dias, Manuel Dias)
+ Author      : $(Ricardo Romano, Manuel Dias)
  Version     :
  Copyright   : $(copyright)
  Description : main definition
@@ -32,13 +32,13 @@ void test_ESP(){
 			else if(i==4)
 				query_WIFI_conn_AP();
 			else if(i==5)
-				point_conn_status();
+				printf("\n status: %d\n",point_conn_status());
 			else if(i==6)
 				set_WIFI_conn_AP("MEO-788DA","D1ASP4SS");
 			else if(i==7)
 				point_conn_status();
 			else if(i==11)
-				start_point_conn("UDP","pool.ntp.org",123);
+				start_point_conn("TCP","iot-se1920.ddns.net",8090);
 			else if(i==12)
 				point_conn_status();
 			else if(i==13)
