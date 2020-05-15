@@ -41,6 +41,9 @@ enum INIT_STATS{
 /** @defgroup Flash_Public_Functions Flash Public Functions
  * @{
 */
+
+int init_flash(unsigned int id);
+
 /**
  * @brief writes from ptr with size size at the memory flash sector 29
  * @parameters void* ptr sorce data address, unsigned int size number of bytes

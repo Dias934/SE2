@@ -15,4 +15,5 @@ void init_peripherals(){
 	init_led();
 	init_BUTTON();
 	init_spi();
+	init_I2C();
 }

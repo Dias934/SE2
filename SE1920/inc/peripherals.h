@@ -14,6 +14,8 @@
 #include "led.h"
 #include "button.h"
 #include "lcd.h"
+#include "i2c.h"
+#include "uart.h"
 
 void init_peripherals();
 

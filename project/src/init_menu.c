@@ -9,8 +9,12 @@
 
 static int idx=0;
 
-void init_sensors(){
-	int ret=ret=init_bmp280();
+static short size=3;
+
+static char * INITS[size]={"Peripherals","BMP280","Data Manager"};
+
+void init_TempSensor(){
+	int ret=init_bmp280();
 	if(ret==0){
 		idx++;
 		view_init_result("OK");
@@ -33,23 +37,24 @@ void init_data(){
 	}
 }
 
-static void (*select_inits[])()={init_sensors, init_data};
+void init_peripherals(){
+	idx++;
+	view_init_result("OK");
+}
+
+static void (*select_inits[])()={init_peripherals,init_TempSensor, init_data};
 
 void *start_inits(){
 	init_peripherals();
-	view_init(0);
-	wait_ms(ONE_SECOND);
-	view_init_result("OK");
-	wait_ms(ONE_SECOND);
 	return &init_menu;
 }
 
 void *init_menu(){
-	view_init(idx+1);
+	view_init(INITS[idx]);
 	wait_ms(ONE_SECOND);
 	select_inits[idx]();
 	wait_ms(ONE_SECOND);
-	if(idx>=2)
+	if(idx>=size)
 		return &normal_execution;
 	else
 		return &init_menu;

@@ -15,6 +15,7 @@ src/menu.o src/menu.d: ../src/menu.c \
  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\inc/button.h \
  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\inc/lcd.h \
  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\inc/HD44780.h \
+ D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\inc/i2c.h \
  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\inc/BMP280.h \
  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\inc/peripherals.h \
  D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\inc/flash.h \
@@ -60,6 +61,8 @@ D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\inc/button.h:
 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\inc/lcd.h:
 
 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\inc/HD44780.h:
+
+D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\inc/i2c.h:
 
 D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\inc/BMP280.h:
 

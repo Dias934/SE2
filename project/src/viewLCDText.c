@@ -11,8 +11,6 @@ char str[16];
 
 static char * MAINTENANCE_CHANGE_TITLE[]={"Change Time","Change Date","Change Temp. Un"};
 
-static char * INITS[]={"Peripherals","Sensors","Data Struct"};
-
 static char TEMPERATURE_UNIT[2]={'C','F'};
 
 static char SEC_CHARACTER[2]={' ',':'};
@@ -48,7 +46,7 @@ void format_temperature_pressure(){
 	if(temp>NOT_OK){
 		double press=get_pressure();
 		char unit=TEMPERATURE_UNIT[get_temperature_unit()];
-		if(temp>99)
+		if(temp>=100)
 			sprintf(str,"%3.0f%c%4c%6.0fPa",temp, unit,' ', press);
 		else
 			sprintf(str,"%2.0f%c%5c%6.0fPa",temp, unit,' ', press);
@@ -70,7 +68,7 @@ void format_temperature_unit(){
 		sprintf(str,"sensor not found");
 }
 
-void view_init(short idx){
+void view_init(char * s){
 	LCDText_Cursor(CURSOR_OFF);
 	LCDText_Locate(0,0);
 	LCDText_WriteString("Initializing:");
@@ -78,7 +76,7 @@ void view_init(short idx){
 	sprintf(str,"%16c", ' ');
 	LCDText_WriteString(str);
 	LCDText_Locate(1,0);
-	LCDText_WriteString(INITS[idx]);
+	LCDText_WriteString(s);
 }
 
 void view_init_result(char * s){
