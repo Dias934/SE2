@@ -21,7 +21,7 @@
 /**
  * @ normal mode view
  */
-void view_init(short idx);
+void view_init(char * s);
 void view_init_result(char * s);
 void view_normal();
 /**

@@ -12,7 +12,12 @@
 
 #ifdef __USE_CMSIS
 #include "LPC17xx.h"
+#include <stdbool.h>
+#include "stdio.h"
 #endif
+
+#define WEAK __attribute__ ((weak))
+
 
 /** @defgroup BUTTON Button
  * This package provides the core capabilities for button functions.
@@ -21,6 +26,8 @@
 /** @defgroup BUTTON_Public_Constants Button Public Constants
  * @{
 */
+
+#define BUTTON_INTERRUPT true
 
 /**
  *  @brief	Up Button Pin in GPIO Port 2
@@ -147,6 +154,9 @@ int BUTTON_Read(void);
  * @return	Bitmap code. 0:1-> up button state, 2:3 -> down button state, 4:5 -> enter button state
  */
 int BUTTON_GetButtonsEvents(void);
+
+WEAK void Button_Interrupt_Handler(void);
+
 
 /**
  * @}

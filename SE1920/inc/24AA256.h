@@ -32,8 +32,8 @@ enum TRANSF_ERRORS{
 };
 
 enum READING_STATUS{
-	DONE=0,
-	READING
+	READING=-1,
+	DONE
 };
 
 int init_24AA256(unsigned short id_addr);

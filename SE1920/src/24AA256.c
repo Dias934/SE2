@@ -14,31 +14,6 @@ uint32_t timeout=0;
 
 int init_24AA256(unsigned short id_addr){
 	I2C_InitBus(I2C_CHOSEN_BUS);
-	unsigned short addr=0;
-	unsigned short save=0;
-	unsigned short expected=0xA5;
-	unsigned short actual=0;
-	if(random_read(addr, &save)==READ_OK){
-		timeout=wait_elapsed(timeout);
-		while(is_reading()==READING){
-			if(wait_elapsed(timeout)>=TRANSF_TIMEOUT)
-				return 1;
-		}
-		timeout=0;
-		if(byte_write(addr, expected)==WRITE_OK){
-			if(random_read(addr, &actual)==READ_OK){
-				timeout=wait_elapsed(timeout);
-				while(is_reading()==READING){
-					if(wait_elapsed(timeout)>=TRANSF_TIMEOUT)
-						return 1;
-				}
-				if(actual==expected){
-					byte_write(addr, save);
-					return 0;
-				}
-			}
-		}
-	}
 	return 1;
 }
 

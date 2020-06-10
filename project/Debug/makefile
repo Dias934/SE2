@@ -8,6 +8,8 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include src/ProjectTasks/subdir.mk
+-include src/KernelUtils/subdir.mk
 -include src/subdir.mk
 -include subdir.mk
 -include objects.mk
@@ -29,7 +31,7 @@ all: project.axf
 project.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug" -L"D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug" -Xlinker -Map="project.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "project_Debug.ld" -o "project.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"C:\Users\Manue\OneDrive\Documentos\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\Debug" -L"C:\Users\Manue\OneDrive\Documentos\Isel\19-20\Verao\SE2\Ambiente\SE2\FreeRTOS-Kernel\Debug" -L"C:\Users\Manue\OneDrive\Documentos\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\Debug" -Xlinker -Map="project.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "project_Debug.ld" -o "project.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build

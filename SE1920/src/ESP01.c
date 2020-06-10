@@ -73,7 +73,7 @@ int send_response(char * data, int len){
 			int idx=check_response(bytes, data, RECEIVED_DATA_RESPONSE_SIZE, RECEIVED_DATA_RESPONSE); //starting idx, filter "+IPD,"
 			if(  idx >= 0){
 				int end_idx=check_response(bytes, data, 1, ":"); //get number of bytes of message response
-				char * str=malloc(end_idx-idx-1);
+				char str[end_idx-idx-1];
 				memcpy(str, data+idx+1, end_idx-idx-1);
 				n_bytes=atoi(str);
 				n_bytes-=bytes-end_idx+1;
@@ -103,9 +103,8 @@ int feedback_CMD(char * data, int len){
 	switch(ESP_mode){
 	case AT_IDLE: break;
 	case AT_SET_CWJAP_CUR:{ //avoid printing the wifi sensitive information
-		char * str=malloc(20);
+		char str[20];
 		bytes=ESP_cmd_response(str, 20);
-		free(str);
 		break;
 	}
 	case AT_SET_CIPSEND: bytes=send_response(data, len); break;
@@ -149,7 +148,7 @@ void version_AT(){
 
 void WIFI_mode_curr_AT(int mode){
 	if(ESP_mode==AT_IDLE){
-		char * str=malloc(20);
+		char str[1];
 		sprintf(str, "%d", mode);
 		char aux[20];
 		strcpy(aux,CMD_START);
@@ -217,7 +216,7 @@ int point_conn_status(){
 		passed_time=wait_elapsed(0);
 		fill_interval=wait_elapsed(0);
 		bool exit=false;
-		char * str=malloc(20);
+		char str[20];
 		while(wait_elapsed(passed_time) < timeout && !exit){
 			int bytes=read_cmd_response(str, 20);
 			if(bytes !=0 ){	//if we received a message
@@ -230,7 +229,6 @@ int point_conn_status(){
 				}
 			}
 		}
-		free(str);
 		reset_mode();
 	}
 	return state;
@@ -238,7 +236,7 @@ int point_conn_status(){
 
 void start_point_conn(char * type, char * remote_ip, int remote_port){
 	if(ESP_mode==AT_IDLE){
-		char * str=malloc(20);
+		char str[20];
 		sprintf(str, "%d", remote_port);
 		char aux[23+strlen(remote_ip)+strlen(str)];
 		strcpy(aux,CMD_START);
@@ -255,7 +253,7 @@ void start_point_conn(char * type, char * remote_ip, int remote_port){
 
 void send_data(int length, char * data){
 	if(ESP_mode==AT_IDLE){
-		char * str=malloc(20);
+		char str[20];
 		sprintf(str, "%d", length);
 		char aux[12+strlen(str)];
 		strcat(strcat(strcpy(aux,CMD_START),CMD_SET_CIPSEND),str);
@@ -272,7 +270,7 @@ void send_data(int length, char * data){
 				if(check_response(bytes, str, SEND_RESPONSE_SIZE, SEND_RESPONSE)>=0){
 					exit=true;
 					UART_Flush();
-					UART_WriteBuffer(data, strlen(data));
+					UART_WriteBuffer(data, length);
 				}
 				fill_interval=wait_elapsed(0);
 			}

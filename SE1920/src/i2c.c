@@ -164,6 +164,8 @@ int tx_successful(unsigned short bus){
 }
 
 int rx_successful(unsigned short bus){
+	if(rx_i2c_succ[bus>>1]==SUCCESSFUL)
+		wait_ms(1);
 	return rx_i2c_succ[bus>>1];
 }
 

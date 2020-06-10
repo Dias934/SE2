@@ -9,9 +9,9 @@
 
 static int idx=0;
 
-static short size=3;
+const static short size=3;
 
-static char * INITS[size]={"Peripherals","BMP280","Data Manager"};
+static char * INITS[3]={"Peripherals","BMP280","Data Manager"};
 
 void init_TempSensor(){
 	int ret=init_bmp280();

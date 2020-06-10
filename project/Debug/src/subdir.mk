@@ -5,7 +5,7 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../src/calendar_maintenance.c \
-../src/cr_startup_lpc175x_6x.c \
+../src/cr_startup_lpc175x_6x-FreeRTOS.c \
 ../src/crp.c \
 ../src/data_manager.c \
 ../src/init_menu.c \
@@ -20,7 +20,7 @@ C_SRCS += \
 
 OBJS += \
 ./src/calendar_maintenance.o \
-./src/cr_startup_lpc175x_6x.o \
+./src/cr_startup_lpc175x_6x-FreeRTOS.o \
 ./src/crp.o \
 ./src/data_manager.o \
 ./src/init_menu.o \
@@ -35,7 +35,7 @@ OBJS += \
 
 C_DEPS += \
 ./src/calendar_maintenance.d \
-./src/cr_startup_lpc175x_6x.d \
+./src/cr_startup_lpc175x_6x-FreeRTOS.d \
 ./src/crp.d \
 ./src/data_manager.d \
 ./src/init_menu.d \
@@ -53,7 +53,7 @@ C_DEPS += \
 src/%.o: ../src/%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU C Compiler'
-	arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSIS_CORE_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"D:\Isel\19-20\Verao\SE2\Ambiente\SE2\project\inc" -I"D:\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\inc" -I"D:\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSIS_CORE_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Manue\OneDrive\Documentos\Isel\19-20\Verao\SE2\Ambiente\SE2\project\inc" -I"C:\Users\Manue\OneDrive\Documentos\Isel\19-20\Verao\SE2\Ambiente\SE2\FreeRTOS-Kernel\src\portable" -I"C:\Users\Manue\OneDrive\Documentos\Isel\19-20\Verao\SE2\Ambiente\SE2\FreeRTOS-Kernel\include" -I"C:\Users\Manue\OneDrive\Documentos\Isel\19-20\Verao\SE2\Ambiente\SE2\SE1920\inc" -I"C:\Users\Manue\OneDrive\Documentos\Isel\19-20\Verao\SE2\Ambiente\SE2\CMSIS_CORE_LPC17xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../$(@D)/"=. -mcpu=cortex-m3 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

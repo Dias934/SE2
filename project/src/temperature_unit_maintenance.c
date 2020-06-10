@@ -40,11 +40,11 @@ void inc_temp_fld(int dir){
 }
 
 void* execute_temperature_unit_maintenance(){
-	if(((button_map>>UP_BUTTON_POSITION)&PRESSING)==PRESSED && (((button_map>>DOWN_BUTTON_POSITION)&PRESSING)==0) && (((button_map>>ENTER_BUTTON_POSITION)&PRESSING)==0))
+	if(((button_map>>UP_BUTTON_POSITION)&PRESSING)==PRESSED && (((button_map>>DOWN_BUTTON_POSITION)&PRESSED)==0) && (((button_map>>ENTER_BUTTON_POSITION)&PRESSED)==0))
 		inc_temp_fld(1);
-	else if(((button_map>>DOWN_BUTTON_POSITION)&PRESSING)==PRESSED && ((button_map>>UP_BUTTON_POSITION)&PRESSING)==0 && ((button_map>>ENTER_BUTTON_POSITION)&PRESSING)==0)
+	else if(((button_map>>DOWN_BUTTON_POSITION)&PRESSING)==PRESSED && ((button_map>>UP_BUTTON_POSITION)&PRESSED)==0 && ((button_map>>ENTER_BUTTON_POSITION)&PRESSED)==0)
 		inc_temp_fld(-1);
-	else if(((button_map>>ENTER_BUTTON_POSITION)&PRESSING)==PRESSED && ((button_map>>UP_BUTTON_POSITION)&PRESSING)==0 && ((button_map>>DOWN_BUTTON_POSITION)&PRESSING)==0){
+	else if(((button_map>>ENTER_BUTTON_POSITION)&PRESSING)==PRESSED && ((button_map>>UP_BUTTON_POSITION)&PRESSED)==0 && ((button_map>>DOWN_BUTTON_POSITION)&PRESSED)==0){
 		save_temperature_unit();
 		return &start_select_maintenance;
 	}

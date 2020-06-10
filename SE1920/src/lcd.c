@@ -97,7 +97,6 @@ void LCDText_Printf(char *fmt, ...){
 }
 
 void LCDText_PrintBinary(int bin){
-	//LCDText_Clear();
 	char str[MAX_CHAR];
 	itoa(bin,str,2);
 	LCDText_WriteString(str);

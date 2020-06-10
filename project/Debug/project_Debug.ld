@@ -6,7 +6,7 @@
  * Generated linker script file for LPC1769
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.23
- * MCUXpresso IDE v11.0.1 [Build 2563] [2019-09-01] on 26/mar/2020 21:40:59
+ * MCUXpresso IDE v11.1.1 [Build 3241] [2020-03-02] on 9/jun/2020 23:26:29
  */
 
 INCLUDE "project_Debug_library.ld"
@@ -61,20 +61,19 @@ SECTIONS
     } > MFlash512
     /*
      * for exception handling/unwind - some Newlib functions (in common
-     * with C++ and STDC++) use this. 
+     * with C++ and STDC++) use this.
      */
-    .ARM.extab : ALIGN(4) 
+    .ARM.extab : ALIGN(4)
     {
         *(.ARM.extab* .gnu.linkonce.armextab.*)
     } > MFlash512
 
-    __exidx_start = .;
-
     .ARM.exidx : ALIGN(4)
     {
+        __exidx_start = .;
         *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+        __exidx_end = .;
     } > MFlash512
-    __exidx_end = .;
  
     _etext = .;
         
@@ -84,6 +83,7 @@ SECTIONS
     {
         FILL(0xff)
         PROVIDE(__start_data_RAM2 = .) ;
+        PROVIDE(__start_data_RamAHB32 = .) ;
         *(.ramfunc.$RAM2)
         *(.ramfunc.$RamAHB32)
         *(.data.$RAM2)
@@ -92,21 +92,25 @@ SECTIONS
         *(.data.$RamAHB32.*)
         . = ALIGN(4) ;
         PROVIDE(__end_data_RAM2 = .) ;
+        PROVIDE(__end_data_RamAHB32 = .) ;
      } > RamAHB32 AT>MFlash512
+
     /* MAIN DATA SECTION */
-    .uninit_RESERVED (NOLOAD) :
+    .uninit_RESERVED (NOLOAD) : ALIGN(4)
     {
-        . = ALIGN(4) ;
+        _start_uninit_RESERVED = .;
         KEEP(*(.bss.$RESERVED*))
        . = ALIGN(4) ;
         _end_uninit_RESERVED = .;
-    } > RamLoc32
+    } > RamLoc32 AT> RamLoc32
 
     /* Main DATA section (RamLoc32) */
     .data : ALIGN(4)
     {
        FILL(0xff)
        _data = . ;
+       PROVIDE(__start_data_RAM = .) ;
+       PROVIDE(__start_data_RamLoc32 = .) ;
        *(vtable)
        *(.ramfunc*)
        KEEP(*(CodeQuickAccess))
@@ -115,53 +119,65 @@ SECTIONS
        *(.data*)
        . = ALIGN(4) ;
        _edata = . ;
+       PROVIDE(__end_data_RAM = .) ;
+       PROVIDE(__end_data_RamLoc32 = .) ;
     } > RamLoc32 AT>MFlash512
 
     /* BSS section for RamAHB32 */
-    .bss_RAM2 :
+    .bss_RAM2 : ALIGN(4)
     {
-       . = ALIGN(4) ;
        PROVIDE(__start_bss_RAM2 = .) ;
+       PROVIDE(__start_bss_RamAHB32 = .) ;
        *(.bss.$RAM2)
        *(.bss.$RamAHB32)
        *(.bss.$RAM2.*)
        *(.bss.$RamAHB32.*)
        . = ALIGN (. != 0 ? 4 : 1) ; /* avoid empty segment */
        PROVIDE(__end_bss_RAM2 = .) ;
-    } > RamAHB32
+       PROVIDE(__end_bss_RamAHB32 = .) ;
+    } > RamAHB32 AT> RamAHB32
 
     /* MAIN BSS SECTION */
-    .bss :
+    .bss : ALIGN(4)
     {
-        . = ALIGN(4) ;
         _bss = .;
+        PROVIDE(__start_bss_RAM = .) ;
+        PROVIDE(__start_bss_RamLoc32 = .) ;
         *(.bss*)
         *(COMMON)
         . = ALIGN(4) ;
         _ebss = .;
+        PROVIDE(__end_bss_RAM = .) ;
+        PROVIDE(__end_bss_RamLoc32 = .) ;
         PROVIDE(end = .);
-    } > RamLoc32
+    } > RamLoc32 AT> RamLoc32
 
     /* NOINIT section for RamAHB32 */
-    .noinit_RAM2 (NOLOAD) :
+    .noinit_RAM2 (NOLOAD) : ALIGN(4)
     {
-       . = ALIGN(4) ;
+       PROVIDE(__start_noinit_RAM2 = .) ;
+       PROVIDE(__start_noinit_RamAHB32 = .) ;
        *(.noinit.$RAM2)
        *(.noinit.$RamAHB32)
        *(.noinit.$RAM2.*)
        *(.noinit.$RamAHB32.*)
        . = ALIGN(4) ;
-    } > RamAHB32
+       PROVIDE(__end_noinit_RAM2 = .) ;
+       PROVIDE(__end_noinit_RamAHB32 = .) ;
+    } > RamAHB32 AT> RamAHB32
 
     /* DEFAULT NOINIT SECTION */
-    .noinit (NOLOAD):
+    .noinit (NOLOAD): ALIGN(4)
     {
-         . = ALIGN(4) ;
         _noinit = .;
+        PROVIDE(__start_noinit_RAM = .) ;
+        PROVIDE(__start_noinit_RamLoc32 = .) ;
         *(.noinit*)
          . = ALIGN(4) ;
         _end_noinit = .;
-    } > RamLoc32
+       PROVIDE(__end_noinit_RAM = .) ;
+       PROVIDE(__end_noinit_RamLoc32 = .) ;        
+    } > RamLoc32 AT> RamLoc32
     PROVIDE(_pvHeapStart = DEFINED(__user_heap_base) ? __user_heap_base : .);
     PROVIDE(_vStackTop = DEFINED(__user_stack_top) ? __user_stack_top : __top_RamLoc32 - 0);
 

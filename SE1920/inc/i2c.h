@@ -11,6 +11,7 @@
 #define I2C_H_
 #ifdef __USE_CMSIS
 #include "LPC17xx.h"
+#include "wait.h"
 #endif
 
 enum I2C_BUS{

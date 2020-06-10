@@ -7,12 +7,17 @@
 
 #include <button.h>
 
-BUTTONS_STATE_TYPEDEF buttons_state={0,0,0};
+BUTTONS_STATE_TYPEDEF buttons_state={NOT_PRESSED, NOT_PRESSED, NOT_PRESSED};
 
 void init_BUTTON(void){
 	LPC_PINCON->PINSEL4 &=~((PINCFG_PULLUP<<PINCFG_UP_BUTTON) | (PINCFG_PULLUP<<PINCFG_DOWN_BUTTON) | (PINCFG_PULLUP<<PINCFG_ENTER_BUTTON));
 	LPC_PINCON->PINMODE4 &=~((PINCFG_PULLUP<<PINCFG_UP_BUTTON) | (PINCFG_PULLUP<<PINCFG_DOWN_BUTTON) | (PINCFG_PULLUP<<PINCFG_ENTER_BUTTON));
-	LPC_GPIO2->FIODIR |=(0<<UP_BUTTON_PIN)|(0<<DOWN_BUTTON_PIN)|(0<<ENTER_BUTTON_PIN);
+	LPC_GPIO2->FIODIR &= ~((1<<UP_BUTTON_PIN)|(1<<DOWN_BUTTON_PIN)|(1<<ENTER_BUTTON_PIN));
+#if BUTTON_INTERRUPT==true
+	LPC_GPIOINT->IO2IntEnR |= (1<<UP_BUTTON_PIN) | (1<<DOWN_BUTTON_PIN) | (1<<ENTER_BUTTON_PIN);
+	LPC_GPIOINT->IO2IntEnF |= (1<<UP_BUTTON_PIN) | (1<<DOWN_BUTTON_PIN) | (1<<ENTER_BUTTON_PIN);
+	NVIC_EnableIRQ(EINT3_IRQn);
+#endif
 }
 
 int BUTTON_Hit(void){
@@ -51,3 +56,10 @@ int BUTTON_GetButtonsEvents(void){
 		BUTTON_check(bitmap&a_mask[i],(&buttons_state.up)+i);
 	return buttons_state.up | buttons_state.down<<2 | buttons_state.enter<<4;
 }
+
+#if BUTTON_INTERRUPT==true
+void EINT3_IRQHandler(void){
+	Button_Interrupt_Handler();
+	LPC_GPIOINT->IO2IntClr=(1<<UP_BUTTON_PIN) | (1<<DOWN_BUTTON_PIN) | (1<<ENTER_BUTTON_PIN);
+}
+#endif

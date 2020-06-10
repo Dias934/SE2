@@ -43,11 +43,11 @@ void inc_time_flds(int dir){
 }
 
 void* execute_time_maintenance(){
-	if(((button_map>>UP_BUTTON_POSITION)&PRESSING) && (((button_map>>DOWN_BUTTON_POSITION)&PRESSING)==0) && (((button_map>>ENTER_BUTTON_POSITION)&PRESSING)==0))
+	if(((button_map>>UP_BUTTON_POSITION)&PRESSING)==PRESSED && (((button_map>>DOWN_BUTTON_POSITION)&PRESSED)==0) && (((button_map>>ENTER_BUTTON_POSITION)&PRESSED)==0))
 		inc_time_flds(1);
-	else if(((button_map>>DOWN_BUTTON_POSITION)&PRESSING) && ((button_map>>UP_BUTTON_POSITION)&PRESSING)==0 && ((button_map>>ENTER_BUTTON_POSITION)&PRESSING)==0)
+	else if(((button_map>>DOWN_BUTTON_POSITION)&PRESSING)==PRESSED && ((button_map>>UP_BUTTON_POSITION)&PRESSED)==0 && ((button_map>>ENTER_BUTTON_POSITION)&PRESSED)==0)
 		inc_time_flds(-1);
-	else if(((button_map>>ENTER_BUTTON_POSITION)&PRESSING)==PRESSED && ((button_map>>UP_BUTTON_POSITION)&PRESSING)==0 && ((button_map>>DOWN_BUTTON_POSITION)&PRESSING)==0){
+	else if(((button_map>>ENTER_BUTTON_POSITION)&PRESSING)==PRESSED && ((button_map>>UP_BUTTON_POSITION)&PRESSED)==0 && ((button_map>>DOWN_BUTTON_POSITION)&PRESSED)==0){
 		view_time_maintenance(++field, &aux_time);
 		if(field>1){
 			set_time(&aux_time);

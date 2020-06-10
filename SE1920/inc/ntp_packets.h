@@ -5,6 +5,7 @@
  *      Author: Manuel
  */
 
+#include "stdint.h"
 #ifndef NTP_PACKETS_H_
 #define NTP_PACKETS_H_
 
@@ -32,10 +33,17 @@ typedef struct {
 
 	 uint32_t txTm_s; // 32 bits. Transmit time-stamp seconds. Important
 	 uint32_t txTm_f; // 32 bits. Transmit time-stamp fraction of a second.
-} ntp_packet; // Total: 384 bits or 48 bytes.
+} ntp_packet, *Pntp_packet; // Total: 384 bits or 48 bytes.
 
-void init_packet(ntp_packet * packet);
+#define PACKET_SIZE 48
 
+#define DEFAULT_LI_VN_MODE 0xE3
+#define DEFAULT_STRATUM 0
+#define DEFAULT_POLL 6
+#define DEFAULT_PRECISION 0xEC
 
+void init_packet(Pntp_packet packet);
+
+void correct_answer_packet(Pntp_packet packet);
 
 #endif /* NTP_PACKETS_H_ */

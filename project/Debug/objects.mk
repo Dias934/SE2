@@ -4,5 +4,5 @@
 
 USER_OBJS :=
 
-LIBS := -lCMSIS_CORE_LPC17xx -lSE1920
+LIBS := -lSE1920 -lFreeRTOS-Kernel -lCMSIS_CORE_LPC17xx
 

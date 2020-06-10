@@ -12,6 +12,7 @@
 #include "ESP01.h"
 #include "stdio.h"
 #include "string.h"
+#include "ntp_packets.h"
 
 void test_ESP(){
 	init_ESP01(115200);
@@ -36,15 +37,15 @@ void test_ESP(){
 			else if(i==6)
 				set_WIFI_conn_AP("MEO-788DA","D1ASP4SS");
 			else if(i==7)
-				point_conn_status();
+				printf("\n status: %d\n",point_conn_status());
 			else if(i==11)
-				start_point_conn("TCP","iot-se1920.ddns.net",8090);
+				start_point_conn("UDP","iot-se1920.ddns.net",8090);
 			else if(i==12)
-				point_conn_status();
+				printf("\n status: %d\n",point_conn_status());
 			else if(i==13)
 				send_data(strlen("GET / \r\n\r\n"),"GET / \r\n\r\n");
 			else if(i==17)
-				execute_close_point_conn();
+				printf("\n status: %d\n",point_conn_status());
 			else if(i==18)
 				point_conn_status();
 			i++;
@@ -55,9 +56,48 @@ void test_ESP(){
 	}
 }
 
+void test_NTP(){
+	init_ESP01(115200);
+	int len=100;
+	char *data=malloc(len);
+	Pntp_packet packet=malloc(PACKET_SIZE);
+	uint32_t s = 0;
+	int i=0;
+	while (1) {
+		if(ESP_mode==AT_IDLE){
+			int status=point_conn_status();
+			switch(status){
+			case NO_AP: set_WIFI_conn_AP("MEO-788DA","D1ASP4SS"); break;
+			case TRANS_DISC:
+			case AP_AND_IP_OBTN:
+			case TRANS_CONN:{
+				if(i%3==0)
+					start_point_conn("UDP","pool.ntp.org", 123);
+				else if(i%3==1){
+					init_packet(packet);
+					send_data(PACKET_SIZE,(char*)packet);
+					while(ESP_mode!=AT_IDLE)
+						s=feedback_CMD((char*)packet, len);
+					correct_answer_packet(packet);
+					printf("\n s:%d \n",packet->txTm_s);
+				}
+				else
+					execute_close_point_conn();
+				i++;
+				break;
+			}
+			}
+		}
+		s=feedback_CMD(data, len);
+		if(s!=0)
+			printf("%s", data);
+	}
+}
+
 int main(void) {
 	init_peripherals();
 	test_ESP();
+	//test_NTP();
 	return 0 ;
 }
 
