@@ -12,6 +12,7 @@
 
 #include "viewLCDText.h"
 #include "peripherals.h"
+#include <stdbool.h>
 
 /** @defgroup MENU Menu
  * This package provides the core capability of Menu.
@@ -20,6 +21,8 @@
 /** @defgroup MENU_Public_Constants Menu Public Constants
  * @{
 */
+
+#define HALF_SECOND 500
 /**
  * @brief 1s = 1000 milisec
  */
@@ -43,6 +46,8 @@
  * @brief keep track of time up to 2 seconds
  */
 extern uint32_t count;
+
+extern DATA_TYPEDEF *local_data;
 
 /**
  * @brief stores the map of the buttons

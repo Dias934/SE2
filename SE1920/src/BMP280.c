@@ -44,16 +44,16 @@ static void set_default_use(){
 	write_spi(tx, rx, 4);
 }
 
-int init_bmp280(){
-	LPC_PINCON->PINSEL0&=~(3<<18);
+bool init_bmp280(){
+	LPC_PINCON->PINSEL0&=~(3<<CS_PINCON);
 	LPC_GPIO0->FIODIR|=(1<<CS_PIN);
 	LPC_GPIO0->FIOSET|=(1<<CS_PIN);
 	if(get_chip_ID()==ID_VALUE){
 		get_calib_data();
 		set_default_use();
-		return 0;
+		return true;
 	}
-	return 1;
+	return false;
 }
 
 int get_chip_ID(){

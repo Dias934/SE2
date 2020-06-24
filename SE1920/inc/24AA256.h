@@ -9,6 +9,7 @@
 
 #include "i2c.h"
 #include "wait.h"
+#include <stdbool.h>
 
 #define SLAVE_ADDR 0xA0
 
@@ -36,7 +37,7 @@ enum READING_STATUS{
 	DONE
 };
 
-int init_24AA256(unsigned short id_addr);
+bool init_24AA256(unsigned short id_addr);
 
 int byte_write(unsigned short addr, unsigned short data);
 

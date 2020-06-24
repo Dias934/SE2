@@ -5,13 +5,15 @@
  *      Author: A38866
  */
 
-#ifndef DATA_MANAGER_H_
-#define DATA_MANAGER_H_
+#ifndef DATA_CENTER_H_
+#define DATA_CENTER_H_
 
 #include "stdio.h"
 #include "peripherals.h"
 #include "BMP280.h"
+#include "my_types.h"
 #include "flash.h"
+#include <stdbool.h>
 
 /**
  * @defgroup DATA_STORAGE Data Storage
@@ -27,9 +29,8 @@
 
 #define NOT_OK (-50)
 
-
-
-
+#define DATA_ID 0xFA5A
+#define DATA_ID_ADDR 5
 
 /**
  * @brief Enum that contain Temperature names
@@ -39,7 +40,7 @@ enum TEMPERATURE_UNITS{
 	FAHRENHEIT
 };
 
-int init_data_manager();
+bool init_data_manager();
 
 void get_cur_time(struct tm *calendar);
 
@@ -59,4 +60,4 @@ void save_temperature_unit();
 
 void undo_set_unit();
 
-#endif /* DATA_MANAGER_H_ */
+#endif /* DATA_CENTER_H_ */

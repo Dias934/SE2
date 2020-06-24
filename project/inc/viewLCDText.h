@@ -8,7 +8,7 @@
 #ifndef VIEWLCDTEXT_H_
 #define VIEWLCDTEXT_H_
 
-#include "data_manager.h"
+#include "data_center.h"
 #include "lcd.h"
 
 /** @defgroup VIEW View
@@ -23,7 +23,7 @@
  */
 void view_init(char * s);
 void view_init_result(char * s);
-void view_normal();
+void view_normal(DATA_TYPEDEF data);
 /**
  * @ maintenance mode view
  */

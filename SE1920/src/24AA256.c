@@ -12,9 +12,9 @@
 
 uint32_t timeout=0;
 
-int init_24AA256(unsigned short id_addr){
+bool init_24AA256(unsigned short id_addr){
 	I2C_InitBus(I2C_CHOSEN_BUS);
-	return 1;
+	return true;
 }
 
 int byte_write(unsigned short addr, unsigned short data){

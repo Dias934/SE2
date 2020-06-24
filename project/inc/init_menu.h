@@ -11,8 +11,16 @@
 #include "menu.h"
 #include "menu_normal.h"
 
-void *start_inits();
+enum INIT_IDX{
+	INIT_PERIPHERALS=0,
+	INIT_BMP280,
+	INIT_E2PROM,
+	INIT_END
+};
 
-void *init_menu();
+#define ALL_INITIALIZED 0x7
+
+
+bool init_menu(short idx);
 
 #endif /* INIT_MENU_H_ */

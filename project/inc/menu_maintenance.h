@@ -24,7 +24,7 @@
  */
 #define TEN_SECONDS 10000
 
-#define HALF_SECOND 500
+
 /**
  * @}
  */

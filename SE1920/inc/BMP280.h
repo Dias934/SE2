@@ -13,6 +13,7 @@
 #ifdef __USE_CMSIS
 #include "peripherals.h"
 #include "LPC17xx.h"
+#include <stdbool.h>
 #endif
 
 /** @defgroup BMP280 BMP
@@ -146,6 +147,8 @@ typedef struct{
 */
 #define CS_PIN 9
 
+#define CS_PINCON 18
+
 /**
  *  @brief	SPI frequency
 */
@@ -237,7 +240,7 @@ enum T_SB_VAL{
  * @brief Call this function only at the beginning of the program and only once
  * @return 0 if init was OK
  */
-int init_bmp280();
+bool init_bmp280();
 /**
  *  @return this function returns the sensor ID
 */

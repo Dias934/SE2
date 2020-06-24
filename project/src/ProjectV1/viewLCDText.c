@@ -1,4 +1,4 @@
-/*
+   /*
  * ViewLCDText.c
  *
  *  Created on: 10/03/2020
@@ -14,6 +14,8 @@ static char * MAINTENANCE_CHANGE_TITLE[]={"Change Time","Change Date","Change Te
 static char TEMPERATURE_UNIT[2]={'C','F'};
 
 static char SEC_CHARACTER[2]={' ',':'};
+
+
 
 void format_full_calendar(){
 	struct tm cal;
@@ -68,6 +70,8 @@ void format_temperature_unit(){
 		sprintf(str,"sensor not found");
 }
 
+static void (*select_format[])()={&format_time, &format_calendar, &format_temperature_unit};
+
 void view_init(char * s){
 	LCDText_Cursor(CURSOR_OFF);
 	LCDText_Locate(0,0);
@@ -96,8 +100,6 @@ void view_normal(){
 	format_temperature_pressure();
 	LCDText_WriteString(str);
 }
-
-static void (*select_format[])()={&format_time, &format_calendar, &format_temperature_unit};
 
 void view_select_maintenance(short idx){
 	LCDText_Cursor(CURSOR_OFF);

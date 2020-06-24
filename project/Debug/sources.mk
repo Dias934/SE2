@@ -16,5 +16,6 @@ C_DEPS :=
 SUBDIRS := \
 src/KernelUtils \
 src/ProjectTasks \
+src/ProjectV2 \
 src \
 

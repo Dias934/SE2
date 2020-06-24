@@ -13,7 +13,7 @@ const static short size=3;
 
 static char * INITS[3]={"Peripherals","BMP280","Data Manager"};
 
-void init_TempSensor(){
+void menu_init_TempSensor(){
 	int ret=init_bmp280();
 	if(ret==0){
 		idx++;
@@ -25,7 +25,7 @@ void init_TempSensor(){
 	}
 }
 
-void init_data(){
+void menu_init_data(){
 	int ret=init_data_manager();
 	if(ret==0){
 		idx++;
@@ -37,12 +37,12 @@ void init_data(){
 	}
 }
 
-void init_peripherals(){
+void menu_init_peripherals(){
 	idx++;
 	view_init_result("OK");
 }
 
-static void (*select_inits[])()={init_peripherals,init_TempSensor, init_data};
+static void (*select_inits[])()={menu_init_peripherals, menu_init_TempSensor, menu_init_data};
 
 void *start_inits(){
 	init_peripherals();

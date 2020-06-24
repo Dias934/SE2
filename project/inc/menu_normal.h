@@ -19,7 +19,7 @@
  * @{
 */
 /**
- * @return return a pointer to a normal menu function
+ * @return return a pointer to the next menu function
  */
 void * normal_execution();
 /**

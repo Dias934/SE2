@@ -14,12 +14,6 @@
 #include "wait.h"
 #endif
 
-enum I2C_BUS{
-	I2C_0 =0,
-	I2C_1,
-	I2C_2
-};
-
 enum I2C_TRANSF_RESULT{
 	UNSUCC=-1,
 	UNCERTAIN,

@@ -62,7 +62,7 @@ void LCDText_WriteChar(char ch){
 }
 
 void LCDText_WriteString(char *str){
-	for (short i= 0; str[i]!= '\0'; ++i)
+	for (short i= 0; str[i]!= 0; ++i)
 		LCDText_WriteChar(str[i]);
 }
 
