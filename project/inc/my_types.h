@@ -19,7 +19,18 @@ typedef struct{
 typedef struct{
 	struct tm cal;
 	SENSOR_TYPEDEF sensor_info;
-	short unit;
+	unsigned short unit;
 }DATA_TYPEDEF;
+
+enum TEMPERATURE_UNITS{
+	CELSIUS=0,
+	FAHRENHEIT
+};
+
+typedef struct{
+	short cmd;
+	short args_size;
+	void *args;
+}CMD_TYPEDEF;
 
 #endif /* MY_TYPES_H_ */

@@ -13,10 +13,10 @@
 #ifdef __USE_CMSIS
 #include "LPC17xx.h"
 #endif
-#include "stdbool.h"
-#include "stdio.h"
-#include "stdlib.h"
-#include "stdarg.h"
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdarg.h>
 
 /** @defgroup UART UART0
  * This package provides the core capabilities for UART protocol.
@@ -64,6 +64,7 @@
  * @brief UART0 Open drain mode configuration value
  */
 #define UART0_PINMODE_OD_CONFIG_L (UART0_OD_NORMAL_L |(UART0_OD_NORMAL_L<<1))<<PINMODE_OD_BIT_POS
+
 /**
  * @brief FCR functionalities bit positions
  */

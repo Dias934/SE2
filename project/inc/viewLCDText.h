@@ -18,6 +18,14 @@
 /** @defgroup VIEW_Public_FUNCTIONS View Public Functions
  * @{
 */
+
+enum MAINT_VIEW_IDX{
+	TIME_MAINT=0,
+	CAL_MAINT,
+	TEMP_UNIT_MAINT
+};
+
+
 /**
  * @ normal mode view
  */
@@ -27,15 +35,15 @@ void view_normal(DATA_TYPEDEF data);
 /**
  * @ maintenance mode view
  */
-void view_select_maintenance(short idx);
+void view_select_maintenance(short idx, DATA_TYPEDEF data);
 /**
  * @ change time view
  */
-void view_time_maintenance(short field, struct tm *calendar);
+void view_time_maintenance(short field, struct tm calendar);
 
-void view_calendar_maintenance(short field, struct tm *calendar);
+void view_calendar_maintenance(short field, struct tm calendar);
 
-void view_temperature_unit_maintenance();
+void view_temperature_unit_maintenance(unsigned short unit);
 /**
  * @}
  * @}

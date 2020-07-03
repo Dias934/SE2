@@ -7,41 +7,37 @@
 
 #include "init_menu.h"
 
-static char * INITS[]={"Peripherals", "BMP280", "Data Manager"};
+static char * INITS[]={"Peripherals", "BMP280", "E2PROM"};
 
 static short initialized=0;
 
 bool menu_init_TempSensor(){
 	bool ret=init_bmp280();
-	if(ret){
-		view_init_result("OK");
+	if(ret)
 		initialized |= 1<<INIT_BMP280;
-	}
-	else{
-		view_init_result("BMP280 not found");
+	else
 		initialized &= ~(1<<INIT_BMP280);
-	}
 	return ret;
 }
 
-bool menu_init_data(){
-	view_init_result("OK");
-	initialized |= 1<<INIT_E2PROM;
-	return true;
+bool menu_init_e2prom(){
+	bool ret=init_24AA256(TEST_E2PROM_ADDR);
+	if(ret)
+		initialized |= 1<<INIT_E2PROM;
+	else
+		initialized &= ~(1<<INIT_E2PROM);
+	return ret;
 }
 
 bool menu_init_peripherals(){
-	view_init_result("OK");
 	initialized |= 1<<INIT_PERIPHERALS;
 	return true;
 }
 
-static bool (*select_inits[])()={menu_init_peripherals, menu_init_TempSensor, menu_init_data};
+static bool (*select_inits[])()={menu_init_peripherals, menu_init_TempSensor, menu_init_e2prom};
 
 bool init_menu(short idx){
-	view_init(INITS[idx]);
-	wait_ms(HALF_SECOND);
-	bool ret= select_inits[idx]();
-	wait_ms(HALF_SECOND);
-	return ret;
+	if(idx!= INIT_END)
+		return select_inits[idx]();
+	return idx==INIT_END && initialized==ALL_INITIALIZED;
 }

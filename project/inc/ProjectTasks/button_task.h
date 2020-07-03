@@ -13,8 +13,11 @@
 #define BUTTON_TASK_NAME "Button"
 #define BUTTON_STACK_SIZE (configMINIMAL_STACK_SIZE)
 
-extern TaskHandle_t *Button_Task;
+#define WAIT_FOR_BUTTON_TIMEOUT 10
+
 
 void buttons_task();
+
+void get_buttons_map(int *button_map);
 
 #endif /* PROJECTTASKS_BUTTON_TASK_H_ */

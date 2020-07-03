@@ -8,11 +8,11 @@
 #ifndef DATA_CENTER_H_
 #define DATA_CENTER_H_
 
+#include <24AA256.h>
 #include "stdio.h"
 #include "peripherals.h"
 #include "BMP280.h"
 #include "my_types.h"
-#include "flash.h"
 #include <stdbool.h>
 
 /**
@@ -32,13 +32,6 @@
 #define DATA_ID 0xFA5A
 #define DATA_ID_ADDR 5
 
-/**
- * @brief Enum that contain Temperature names
- */
-enum TEMPERATURE_UNITS{
-	CELSIUS=0,
-	FAHRENHEIT
-};
 
 bool init_data_manager();
 

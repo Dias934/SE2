@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="com.crt.dsfdebug.crtmcu.launchType">
 <stringAttribute key=".gdbinit" value=""/>
+<stringAttribute key="InstructionTraceInfo" value="eJytVttymzAQfe9M/4HhPTXYGNszcTMyyDVTboNE0ukLo2DFcYvBBZGkf19xMfFFdvxQP3gk7dmzq7Mridu7t00ivdC8WGfpVFa/KLJE0zhbrtPVVA7x/GYs3339/OmWsg1ljyZlZJ0U1QIm+YqyOSWszGkhOeRXlt/veDiLs04PFiofiJ0ZKagElkvuU0zlm+FA1xVNH/VlyedLNGVTmeUllXsV3nzAp/ixro9VXYi3RPzjkTJRxfwQz0T5KMPRPv8TSYrWwTlxUM8AuVav7Ajb18faQB3oitgH5ySm8zJNaXKY0XCia2NFrNArM7KcovXqmQ822yzlAKmKK9TMKOws/j2V3TJJmrEscYqArhDjNLxOijYa64qqcBVEv5GiKXE/5jUT2/uP2jCe6EOxldtHujYZDuPj9aUutwV/2nVUtYmD7FtAzLdJcsLzLSS33DzSfCprjRqo3G6znNGlZGy2DmHxc6uVZPyNE2pkZcoqeL1WOVSStT0tmYSRar6riWSv099qN3PIm0MKrp06lLu4ShNXTNNEblmaiZBEvURyfS79/0MzaGh6nZZtm/l59rRO+LXQqli05YgMHNjSPUlK2unRO4fv7RV4Bzzt38rivm0h2xhFfNrMuwtj18wPWb7smpk+lquA/un2yEkQIznj/b2t7yU+S5LOXM9s+kKT2ojXG1owsqdYfSjBu0d7jc33NvHedZY5lbnRMoPIDyCCLj7uywqBA2DACGEQYP7v+ZewC4CiuTX35qFti+zAxjBwAbbuYTQLgGssIh8Y36E48CJ0ZtGgH6HQ971AiAG2HQXwm4U4L+IjYIKZDduyHm28ruyRBPVarWXF5jgmNDwTBpHl+iFGJ8f0AG14oVuFvYzygRVEwDS5aCgyPMcHAcDeWa++1rhVKkYm9PHioyR4Dj/wFcwtseUiHIQO1wp5YWDAD9Ln3NA1oRlVA146u5EmmoUoQtZP+LF37eSF+IKgaot2ZtCsYlm84R4ANha+Z7n4qmKcyxNBGxqX9D5K9JpYJsDgVPDee3/1uuugfub56JpHr334BffE8Xt7QkcFfLtnWPCI1qcB4fnxPXg5RAM5+I6qlw6/tf4BkHHpqQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"/>
 <booleanAttribute key="attach" value="false"/>
 <stringAttribute key="bootrom.stall" value=""/>
 <stringAttribute key="com.crt.ctrlcenter.OFSemuDetails" value="LinkServer"/>
@@ -87,5 +88,6 @@
 <booleanAttribute key="redlink.enable.flashhashing" value="true"/>
 <booleanAttribute key="redlink.enable.rangestepping" value="true"/>
 <stringAttribute key="run" value="cont"/>
+<stringAttribute key="saved_expressions&lt;seperator&gt;Unknown" value="0x100021d0 &lt;ucHeap+8032&gt;,0x100021d0"/>
 <booleanAttribute key="vector.catch" value="false"/>
 </launchConfiguration>

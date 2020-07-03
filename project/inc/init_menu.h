@@ -18,8 +18,9 @@ enum INIT_IDX{
 	INIT_END
 };
 
-#define ALL_INITIALIZED 0x7
+#define ALL_INITIALIZED 	0x7
 
+#define TEST_E2PROM_ADDR 	0
 
 bool init_menu(short idx);
 

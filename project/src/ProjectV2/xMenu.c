@@ -12,15 +12,17 @@
 
 uint32_t count;
 int button_map;
-DATA_TYPEDEF *local_data;
+DATA_TYPEDEF local_data;
 
 void *request_change_menu(void *origen(), void *destiny()){
 	if(count==0)
 		count=wait_elapsed(count);
-	if((wait_elapsed(0)/PRESSING_TIME)%2>0)
-		turn_on_led();
-	else
-		turn_off_led();
+	else{
+		if((wait_elapsed(0)/PRESSING_TIME)%2>0)
+			turn_on_led();
+		else
+			turn_off_led();
+	}
 	if(wait_elapsed(count)>=TWO_SECONDS){
 		if(((button_map>>UP_BUTTON_POSITION)&PRESSED)==0 && (((button_map>>DOWN_BUTTON_POSITION)&PRESSED)==0) && (((button_map>>ENTER_BUTTON_POSITION)&PRESSED)==0)){
 			count=0;

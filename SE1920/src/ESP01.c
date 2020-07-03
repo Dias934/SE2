@@ -5,7 +5,7 @@
  *      Author: Manuel Dias e Ricardo Romano
  */
 #include "ESP01.h"
-#include "string.h"
+#include <string.h>
 
 int ESP_mode;
 uint32_t passed_time;	//time has passed since sending the command
@@ -13,6 +13,9 @@ uint32_t timeout;		//timeout threshold
 uint32_t fill_interval; //counter to let the buffer fill with data
 int response_idx;		//index of response, in case the response comes splitted
 int n_bytes;			//number of bytes remaining of a send response
+char esp_buffer[ESP_BUFFER_SIZE];	//wifi buffer for incoming messages
+
+int read_cmd_response(char * data, int len);
 
 void reset_mode(){
 	UART_Flush();
@@ -31,7 +34,6 @@ void init_ESP01(int baudRate){
 	LPC_GPIO0->FIOCLR=(1<<RST_PIN);
 	wait_ms(RST_WAITING_TIME);
 	LPC_GPIO0->FIOSET=(1<<RST_PIN);
-	wait_ms(2000);
 	reset_mode();
 }
 
@@ -50,7 +52,8 @@ int check_response(int bytes, char* data, int resp_size, char *resp){
 int read_cmd_response(char * data, int len){
 	int bytes=0;
 	if(wait_elapsed(passed_time)>timeout){	//if timeout expires
-		bytes= (int) UART_ReadBuffer(data, len);
+		bytes=-1;
+		UART_ReadBuffer(data, len);
 		reset_mode();
 	}
 	else{	//timeout has not expires
@@ -67,24 +70,25 @@ int read_cmd_response(char * data, int len){
 }
 
 int send_response(char * data, int len){
-	int bytes=read_cmd_response(data, len);
+	int bytes=read_cmd_response(esp_buffer, ESP_BUFFER_SIZE);
 	if(bytes != 0 ){	//if we received a message
 		if(n_bytes<0){
-			int idx=check_response(bytes, data, RECEIVED_DATA_RESPONSE_SIZE, RECEIVED_DATA_RESPONSE); //starting idx, filter "+IPD,"
+			int idx=check_response(bytes, esp_buffer, RECEIVED_DATA_RESPONSE_SIZE, RECEIVED_DATA_RESPONSE); //starting idx, filter "+IPD,"
 			if(  idx >= 0){
-				int end_idx=check_response(bytes, data, 1, ":"); //get number of bytes of message response
+				int end_idx=check_response(bytes, esp_buffer, 1, ":"); //get number of bytes of message response
 				char str[end_idx-idx-1];
-				memcpy(str, data+idx+1, end_idx-idx-1);
+				memcpy(str, esp_buffer+idx+1, end_idx-idx-1);
 				n_bytes=atoi(str);
 				n_bytes-=bytes-end_idx+1;
-				memcpy(data, data+end_idx+1,bytes-end_idx+1);	//filter ESP command
+				memcpy(data, esp_buffer+end_idx+1, len);	//filter ESP command
 				bytes-=end_idx+1;
 				if(n_bytes<=0)		//if we read all the data then go to IDLE mode
 					reset_mode();
 			}
 		}
-		else if((n_bytes-=bytes )<=0) //if we read all the data then go to IDLE mode
+		else if((n_bytes-=bytes )<=0){ //if we read all the data then go to IDLE mode
 			reset_mode();
+		}
 	}
 	return bytes;
 }
@@ -234,64 +238,136 @@ int point_conn_status(){
 	return state;
 }
 
-void start_point_conn(char * type, char * remote_ip, int remote_port){
-	if(ESP_mode==AT_IDLE){
+void start_conn(char * type, char * remote_ip, int remote_port, char* start_cmd){
+	UART_WriteBuffer(strcat(start_cmd,CMD_END), strlen(start_cmd));
+	ESP_mode=AT_CIPSTART;
+	passed_time=wait_elapsed(0);
+	fill_interval=wait_elapsed(0);
+}
+
+void start_point_single_conn(char * type, char * remote_ip, int remote_port, int keepalive){
+	if(ESP_mode == AT_IDLE){
 		char str[20];
 		sprintf(str, "%d", remote_port);
-		char aux[23+strlen(remote_ip)+strlen(str)];
+		char *aux=(char*)malloc(sizeof(char)*(23+strlen(remote_ip)+strlen(str)));
 		strcpy(aux,CMD_START);
 		strcat(aux,CMD_CIPSTART);
 		strcat(strcat(strcat(strcat(aux,"\""),type),"\""),",");
 		strcat(strcat(strcat(strcat(aux,"\""),remote_ip),"\""),",");
 		strcat(aux,str);
-		UART_WriteBuffer(strcat(aux,CMD_END), strlen(aux));
-		ESP_mode=AT_CIPSTART;
-		passed_time=wait_elapsed(0);
-		fill_interval=wait_elapsed(0);
+		if(keepalive>0){
+			char keep[20];
+			sprintf(keep, "%d", keepalive);
+			aux=realloc(aux,strlen(aux)+strlen(keep)+1);
+			strcat(strcat(aux, ","),keep);
+		}
+		start_conn(type, remote_ip, remote_port, aux);
+		free(aux);
 	}
 }
 
-void send_data(int length, char * data){
-	if(ESP_mode==AT_IDLE){
+void start_point_mult_conn(char * type, char * remote_ip, int remote_port, int ID, int keepalive){
+	if(ESP_mode == AT_IDLE){
+		char str[20];
+		sprintf(str, "%d", remote_port);
+		char aux[23+strlen(remote_ip)+strlen(str)+2];
+		strcat(strcpy(aux,CMD_START), CMD_CIPSTART);
+		aux[12]='0'+ID;
+		strcat(aux, ",");
+		strcat(strcat(strcat(strcat(aux,"\""),type),"\""),",");
+		strcat(strcat(strcat(strcat(aux,"\""),remote_ip),"\""),",");
+		strcat(aux,str);
+		start_conn(type, remote_ip, remote_port, aux);
+	}
+}
+
+void send_data(char * data, int length, char * send_cmd){
+	UART_WriteBuffer(strcat(send_cmd,CMD_END), strlen(send_cmd));
+	ESP_mode=AT_SET_CIPSEND;
+	passed_time=wait_elapsed(0);
+	fill_interval=wait_elapsed(0);
+	timeout=WAIT_WRAP_RETURN_TIMEOUT;
+	bool exit=false;
+	int bytes=0;
+	char aux[20];
+	while(wait_elapsed(passed_time)<=timeout && !exit){
+		if(wait_elapsed(fill_interval) > FILL_INTERVAL){
+			bytes=UART_ReadBuffer(aux, 20);
+			if(check_response(bytes, aux, SEND_RESPONSE_SIZE, SEND_RESPONSE)>=0){
+				exit=true;
+				UART_Flush();
+				UART_WriteBuffer(data, length);
+			}
+			fill_interval=wait_elapsed(0);
+		}
+	}
+	if(!exit)
+		reset_mode();
+	else{
+		passed_time=wait_elapsed(0);
+		fill_interval=wait_elapsed(0);
+		timeout=WAIT_SENDING_RESPONSE_TIMEOUT;
+		n_bytes=-1;
+	}
+
+}
+
+void send_data_single(char * data, int length){
+	if(ESP_mode == AT_IDLE){
 		char str[20];
 		sprintf(str, "%d", length);
-		char aux[12+strlen(str)];
+		char aux[13+strlen(str)];
 		strcat(strcat(strcpy(aux,CMD_START),CMD_SET_CIPSEND),str);
-		UART_WriteBuffer(strcat(aux,CMD_END), strlen(aux));
-		ESP_mode=AT_SET_CIPSEND;
-		passed_time=wait_elapsed(0);
-		fill_interval=wait_elapsed(0);
-		timeout=WAIT_WRAP_RETURN_TIMEOUT;
-		bool exit=false;
-		int bytes=0;
-		while(wait_elapsed(passed_time)<=timeout && !exit){
-			if(wait_elapsed(fill_interval) > FILL_INTERVAL){
-				bytes=UART_ReadBuffer(str, 20);
-				if(check_response(bytes, str, SEND_RESPONSE_SIZE, SEND_RESPONSE)>=0){
-					exit=true;
-					UART_Flush();
-					UART_WriteBuffer(data, length);
-				}
-				fill_interval=wait_elapsed(0);
-			}
-		}
-		if(!exit)
-			reset_mode();
-		else{
-			passed_time=wait_elapsed(0);
-			fill_interval=wait_elapsed(0);
-			timeout=WAIT_SENDING_RESPONSE_TIMEOUT;
-			n_bytes=-1;
-		}
+		send_data(data, length, aux);
 	}
 }
 
-void execute_close_point_conn(){
+void send_data_mult(char * data, int length, int ID){
+	if(ESP_mode == AT_IDLE){
+		char str[20];
+		sprintf(str, "%d", length);
+		char c= '0'+ID;
+		char aux[14+strlen(str)+1];
+		strcat(strcpy(aux, CMD_START), CMD_SET_CIPSEND);
+		aux[11]=c;
+		aux[12]=0;
+		strcat(strcat(aux, ","), str);
+		send_data(data, length, aux);
+	}
+}
+
+void close_conn(char * str){
+	UART_WriteBuffer(strcat(str, CMD_END), strlen(str));
+	ESP_mode=AT_EX_CIPCLOSE;
+	passed_time=wait_elapsed(0);
+	fill_interval=wait_elapsed(0);
+}
+
+void execute_close_conn(){
 	if(ESP_mode==AT_IDLE){
 		char aux[13];
-		strcpy(aux,CMD_START);
-		UART_WriteBuffer(strcat(strcat(aux,CMD_EX_CIPCLOSE),CMD_END), strlen(aux));
-		ESP_mode=AT_EX_CIPCLOSE;
+		strcat(strcpy(aux,CMD_START), CMD_EX_CIPCLOSE);
+		close_conn(aux);
+	}
+}
+
+void execute_close_point_conn(int ID){
+	if(ESP_mode==AT_IDLE){
+		char aux[15];
+		strcat(strcat(strcpy(aux,CMD_START), CMD_EX_CIPCLOSE), "=");
+		aux[12]='0'+ID;
+		close_conn(aux);
+	}
+}
+
+void set_mult(int mode){
+	if(ESP_mode==AT_IDLE){
+		char str[13];
+		strcat(strcpy(str,CMD_START), CMD_CIPMUX);
+		str[10]='0'+mode;
+		str[11]=0;
+		UART_WriteBuffer(strcat(str, CMD_END), strlen(str));
+		ESP_mode=AT_CIPMUX;
 		passed_time=wait_elapsed(0);
 		fill_interval=wait_elapsed(0);
 	}
@@ -305,5 +381,15 @@ void get_local_IP_addr(){
 		ESP_mode=AT_CIFSR;
 		passed_time=wait_elapsed(0);
 		fill_interval=wait_elapsed(0);
+	}
+}
+
+void ignore_response_from_send(){
+	if(ESP_mode == AT_SET_CIPSEND){
+		ESP_mode=AT_IDLE;
+		passed_time=0;
+		timeout=MINIMUM_TIMEOUT;
+		fill_interval=0;
+		response_idx=0;
 	}
 }

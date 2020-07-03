@@ -8,8 +8,8 @@
 ===============================================================================
 */
 
+#include <24AA256.h>
 #include "peripherals.h"
-#include "24AA256.h"
 #include "stdio.h"
 
 void byte_test();

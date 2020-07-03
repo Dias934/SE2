@@ -6,7 +6,7 @@
  */
 
 #include "ntp_packets.h"
-#include "stdlib.h"
+#include <stdlib.h>
 
 void init_packet(Pntp_packet packet){
 	packet->li_vn_mode = DEFAULT_LI_VN_MODE;

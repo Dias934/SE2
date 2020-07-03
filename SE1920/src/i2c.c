@@ -8,8 +8,9 @@
 */
 
 #include "i2c.h"
-#include "string.h"
-#include "stdlib.h"
+#include <string.h>
+#include <stdlib.h>
+#include "mem_allocation.h"
 
 LPC_I2C_TypeDef* i2c_buses[]={LPC_I2C0, LPC_I2C1, LPC_I2C2 };
 int i2c_scl_sch_sum;
@@ -103,8 +104,8 @@ int I2C_Write(unsigned short slaveAddr, unsigned short *tx_i2cBuffer, unsigned s
 	tx_i2c_lens[a_bus]=length;
 	tx_i2c_counts[a_bus]=0;
 	sla_addr[a_bus]=slaveAddr;
-	tx_i2c[a_bus]=malloc(sizeof(unsigned short)*length);
-	memcpy(tx_i2c[a_bus], tx_i2cBuffer,sizeof(unsigned short)*length);
+	tx_i2c[a_bus]=my_malloc(sizeof(unsigned short)*length);
+	memcpy(tx_i2c[a_bus], tx_i2cBuffer, sizeof(unsigned short)*length);
 	i2c_buses[a_bus]->I2CONCLR=CLR_I2CONCLR;
 	i2c_buses[a_bus]->I2CONSET=SET_I2EN;
 	i2c_buses[a_bus]->I2CONSET=SET_STA;
@@ -125,7 +126,7 @@ int I2C_WriteRead(unsigned short slaveAddr, unsigned short *tx_i2cBuffer, unsign
 	tx_i2c_lens[a_bus]=tx_i2c_length;
 	tx_i2c_counts[a_bus]=0;
 	sla_addr[a_bus]=slaveAddr;
-	tx_i2c[a_bus]=malloc(sizeof(unsigned short)*tx_i2c_length);
+	tx_i2c[a_bus]=my_malloc(sizeof(unsigned short)*tx_i2c_length);
 	memcpy(tx_i2c[a_bus], tx_i2cBuffer,sizeof(unsigned short)*tx_i2c_length);
 	rx_i2c_lens[a_bus]=rx_i2c_length;
 	rx_i2c_counts[a_bus]=0;
@@ -164,8 +165,6 @@ int tx_successful(unsigned short bus){
 }
 
 int rx_successful(unsigned short bus){
-	if(rx_i2c_succ[bus>>1]==SUCCESSFUL)
-		wait_ms(1);
 	return rx_i2c_succ[bus>>1];
 }
 
@@ -202,7 +201,7 @@ static void I2C_Handler(unsigned short in_bus){
 				tx_i2c_lens[bus]=0;
 				tx_i2c_succ[bus]=SUCCESSFUL;
 				i2c_buses[bus]->I2CONSET=SET_AA;
-				free(tx_i2c[bus]);
+				my_free(tx_i2c[bus]);
 			}
 			i2c_buses[bus]->I2CONSET=SET_AA;
 			break;
@@ -210,7 +209,7 @@ static void I2C_Handler(unsigned short in_bus){
 			i2c_buses[bus]->I2CONSET=SET_STA|SET_AA;
 			i2c_state&=~(in_bus);
 			if(tx_i2c_lens[bus]>0)
-				free(tx_i2c[bus]);
+				my_free(tx_i2c[bus]);
 			break;
 		case MR_DATA_R_ACK:
 			rx_i2c[bus][rx_i2c_counts[bus]]=(i2c_buses[bus]->I2DAT);
@@ -238,7 +237,7 @@ static void I2C_Handler(unsigned short in_bus){
 			i2c_buses[bus]->I2CONSET=SET_STO|SET_AA;
 			i2c_state&=~(in_bus);
 			tx_i2c_lens[bus]=0;
-			free(tx_i2c[bus]);
+			my_free(tx_i2c[bus]);
 			tx_i2c_succ[bus]=UNSUCC;
 			break;
 		default:

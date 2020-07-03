@@ -17,11 +17,8 @@ static SENSOR_TYPEDEF sensor_inf=SENSOR_INIT_STATE;
 void init_sensor_task();
 
 void sensor_task(){
-	if(Sensor_Queue == NULL)
-		Sensor_Queue= xQueueCreate(1, sizeof(SENSOR_TYPEDEF));
-	taskENTER_CRITICAL();
+	Sensor_Queue= xQueueCreate(1, sizeof(SENSOR_TYPEDEF));
 	init_sensor_task();
-	taskEXIT_CRITICAL();
 	int ret;
 	while(1){
 		taskENTER_CRITICAL();
@@ -44,9 +41,18 @@ void sensor_task(){
 
 void init_sensor_task(){
 	while(!sensor_inf.valid){
+		taskENTER_CRITICAL();
 		sensor_inf.valid=init_menu(INIT_BMP280);
+		taskEXIT_CRITICAL();
 		if(xQueueSend(Sensor_Queue, &sensor_inf, pdMS_TO_TICKS(RESTART_INIT_TIME))!= pdPASS)
 			xQueueOverwrite(Sensor_Queue,&sensor_inf);
+	}
+}
+
+void get_sensor_info(SENSOR_TYPEDEF * ptr){
+	if(Sensor_Queue != NULL){
+		if(xQueueReceive(Sensor_Queue, ptr, pdMS_TO_TICKS(WAIT_NEXT_MEASURE_INTERVAL))==errQUEUE_EMPTY)
+			ptr->valid=false;
 	}
 }
 

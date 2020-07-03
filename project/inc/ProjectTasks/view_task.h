@@ -14,15 +14,7 @@
 
 #define VIEW_TASK_NAME "View"
 #define VIEW_STACK_SIZE (configMINIMAL_STACK_SIZE*3)
-
-
-extern TaskHandle_t *View_Task;
-
-
-typedef struct{
-	short cmd;
-	void *args;
-}LCD_CMD_TYPEDEF;
+#define VIEW_PRIORITY 	5
 
 enum VIEW_CASES{
 	VIEW_INIT=0,
@@ -41,16 +33,18 @@ void view_task_init(char * s);
 
 void view_task_init_result(char * s);
 
-void view_task_normal();
+void view_task_normal(DATA_TYPEDEF data);
 
-void view_task_select_maintenance(short idx);
+void view_task_select_maintenance(void *args);
 
-void view_task_time_maintenance(short field, struct tm *calendar);
+void view_task_time_maintenance(void *args);
 
-void view_task_calendar_maintenance(short field, struct tm *calendar);
+void view_task_calendar_maintenance(void *args);
 
-void view_task_temperature_unit_maintenance();
+void view_task_temperature_unit_maintenance(unsigned short unit);
 
 void view_test(int button);
+
+void send_to_view(int cmd_idx, void * args, int args_size, int terminator);
 
 #endif /* PROJECTTASKS_VIEW_TASK_H_ */

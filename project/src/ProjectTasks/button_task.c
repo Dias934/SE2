@@ -23,12 +23,13 @@ void Button_Interrupt_Handler(void){
 
 void buttons_task(){
 	Button_Queue= xQueueCreate(1, sizeof(int));
-	if(Input_Queue == NULL)
-		Input_Queue= xQueueCreate(1, sizeof(int));
+	Input_Queue= xQueueCreate(1, sizeof(int));
 	bool waiting=true;
 	int button=0;
 	BaseType_t result;
+	taskENTER_CRITICAL();
 	init_menu(INIT_PERIPHERALS);
+	taskEXIT_CRITICAL();
 	while(1){
 		if(waiting){
 			result=xQueueReceive(Button_Queue, &button, portMAX_DELAY);
@@ -44,4 +45,9 @@ void buttons_task(){
 		}
 		xQueueSend(Input_Queue, &button, portMAX_DELAY);
 	}
+}
+
+void get_buttons_map(int *button_map){
+	if(Input_Queue != NULL)
+		xQueueReceive(Input_Queue, button_map, pdMS_TO_TICKS(WAIT_FOR_BUTTON_TIMEOUT));
 }

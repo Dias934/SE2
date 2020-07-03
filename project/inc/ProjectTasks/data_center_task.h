@@ -20,6 +20,11 @@
 
 #define WAITING_FOR_MAINTENANCE	100
 
+#define PROJECT_ID_ADDR 		0x08
+#define PROJECT_ID_VAL			0xA0
+
+#define TEMPERATURE_UNIT_ADDR	0x10
+
 enum DATA_REQUESTS{
 	CHANGE_TIME=0,
 	CHANGE_CALENDAR,
@@ -27,14 +32,14 @@ enum DATA_REQUESTS{
 	CHANGE_TEMPERATURE_UNIT
 };
 
-typedef struct{
-	short cmd;
-	void *args;
-}MAINTENANCE_CMD_TYPEDEF;
-
-extern TaskHandle_t *Data_center_Task;
-
 void data_center_task();
 
+bool send_new_time(struct tm newTime);
+
+bool send_new_calendar(struct tm newTime);
+
+bool send_new_temperature_unit(unsigned short unit);
+
+bool send_new_calendar_time();
 
 #endif /* SENSOR_TASK_H_ */

@@ -5,16 +5,32 @@
  *      Author: A38866
  */
 
-#include "24AA256.h"
+#include <24AA256.h>
 #include "string.h"
 #include "wait.h"
 #include "stdlib.h"
 
-uint32_t timeout=0;
+static uint32_t timeout=0;
 
 bool init_24AA256(unsigned short id_addr){
+	init_I2C();
 	I2C_InitBus(I2C_CHOSEN_BUS);
-	return true;
+	short result=WRITING;
+	while(result!=SUCCESSFUL){
+		result=WRITING;
+		byte_write(id_addr, INIT_WRITE_BYTE_TEST);
+		while(result==WRITING)
+			result=is_writing();
+	}
+	unsigned short rx;
+	result=READING;
+	while(result!=SUCCESSFUL){
+		result=READING;
+		random_read(id_addr, &rx);
+		while(result==READING)
+			result=is_reading();
+	}
+	return rx==INIT_WRITE_BYTE_TEST;
 }
 
 int byte_write(unsigned short addr, unsigned short data){
@@ -24,8 +40,6 @@ int byte_write(unsigned short addr, unsigned short data){
 	if(ret==CONFIG_OK){
 		unsigned short tx[]={addr>>8,addr,data};
 		ret=I2C_Write(SLA_ADDR| I2C_W, tx, 3,I2C_CHOSEN_BUS);
-		if(ret==WRITE_OK)
-			wait_ms(BYTE_TRANSF_TIME);
 	}
 	return ret;
 }
@@ -102,9 +116,16 @@ int sequential_read(unsigned short addr, unsigned short * rx_buffer, unsigned sh
 	return ret;
 }
 
+int is_writing(){
+	int ret=get_i2c_state(I2C_CHOSEN_BUS);
+	if(ret==I2C_FREE)
+		return tx_successful(I2C_CHOSEN_BUS);
+	return WRITING;
+}
+
 int is_reading(){
 	int ret=get_i2c_state(I2C_CHOSEN_BUS);
-	if(ret==0)
+	if(ret==I2C_FREE)
 		return rx_successful(I2C_CHOSEN_BUS);
 	return READING;
 }

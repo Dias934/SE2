@@ -19,13 +19,15 @@
 #define RST_CONF_POS (RST_PIN*2)
 #define GPIO_FUNC_L 0x3
 
+#define ESP_BUFFER_SIZE 1024
+
 #define RST_WAITING_TIME 100
 #define FILL_INTERVAL 250
 
 #define MINIMUM_TIMEOUT 1000 //for commands that doesn't need timeout and they might get stuck
 #define CWLAP_TIMEOUT 15000
-#define WAIT_WRAP_RETURN_TIMEOUT 5000
-#define WAIT_SENDING_RESPONSE_TIMEOUT 30000
+#define WAIT_WRAP_RETURN_TIMEOUT 15000
+#define WAIT_SENDING_RESPONSE_TIMEOUT 15000
 
 #define CMD_START "AT"
 
@@ -42,6 +44,8 @@
 #define CMD_EX_CIPSEND "+CIPSEND"
 #define CMD_EX_CIPCLOSE "+CIPCLOSE"
 #define CMD_CIFSR "+CIFSR"
+#define CMD_CIPMODE "+CIPMODE="
+#define CMD_CIPMUX "+CIPMUX="
 
 #define CMD_END "\r\n"
 
@@ -73,7 +77,9 @@ enum ESP_CMD_STATE{
 	AT_CIPSTART,
 	AT_SET_CIPSEND,
 	AT_EX_CIPCLOSE,
-	AT_CIFSR
+	AT_CIFSR,
+	AT_CIPMODE,
+	AT_CIPMUX
 };
 
 enum ESP_CONN_STATUS{
@@ -82,6 +88,20 @@ enum ESP_CONN_STATUS{
 	TRANS_CONN,
 	TRANS_DISC,
 	NO_AP
+};
+
+enum CONN_ID{
+	ID0=0,
+	ID1,
+	ID2,
+	ID3,
+	ID4,
+	ID5
+};
+
+enum CIP_MODE{
+	SINGLE=0,
+	MULTIPLE
 };
 
 extern int ESP_mode;
@@ -106,13 +126,23 @@ void quit_WIFI_conn_AP();
 
 int point_conn_status();
 
-void start_point_conn(char * type, char * remote_ip, int remote_port);
+void start_point_single_conn(char * type, char * remote_ip, int remote_port, int keepalive);
 
-void send_data(int length, char * data);
+void start_point_mult_conn(char * type, char * remote_ip, int remote_port, int ID, int keepalive);
 
-void execute_close_point_conn();
+void send_data_single(char * data, int length);
+
+void send_data_mult(char * data, int length, int ID);
+
+void execute_close_point_conn(int ID);
+
+void execute_close_conn();
 
 void get_local_IP_addr();
+
+void set_mult(int mode);
+
+void ignore_response_from_send();
 
 int feedback_CMD(char * data, int len);
 

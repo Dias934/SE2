@@ -16,7 +16,7 @@
 #include "peripherals.h"
 #include "mem_allocation.h"
 
-#define PERIPHERALS_PRIORITY 	5
+#define PERIPHERALS_PRIORITY 	4
 #define PRINCIPAL_PRIORITY		2
 
 extern QueueHandle_t Input_Queue;

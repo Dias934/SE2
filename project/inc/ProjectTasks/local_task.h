@@ -9,16 +9,16 @@
 #define PROJECTTASKS_LOCAL_TASK_H_
 
 #include "project_tasks.h"
-
-#define WAIT_FOR_BUTTON_TIMEOUT 10
+#include "my_types.h"
 
 #define LOCAL_TASK_NAME "Local"
 #define LOCAL_STACK_SIZE (configMINIMAL_STACK_SIZE*2)
 
-#define END_LOCAL_INIT "End  Local Init"
-
-extern TaskHandle_t *Local_Task;
+#define END_LOCAL_INIT "End Local Init"
+#define INIT_WAIT_DELAY 10
 
 void local_task();
+
+void send_to_local(DATA_TYPEDEF data);
 
 #endif /* PROJECTTASKS_LOCAL_TASK_H_ */

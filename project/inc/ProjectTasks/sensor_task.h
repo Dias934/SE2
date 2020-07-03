@@ -21,12 +21,8 @@
 #define WAIT_NEXT_MEASURE_INTERVAL 	250
 
 
-
-
-extern TaskHandle_t *Sensor_Task;
-
-extern QueueHandle_t Sensor_Queue;
-
 void sensor_task();
+
+void get_sensor_info(SENSOR_TYPEDEF * ptr);
 
 #endif /* SENSOR_TASK_H_ */

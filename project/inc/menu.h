@@ -10,6 +10,7 @@
 #ifndef MENU_H_
 #define MENU_H_
 
+#include <24AA256.h>
 #include "viewLCDText.h"
 #include "peripherals.h"
 #include <stdbool.h>
@@ -47,7 +48,7 @@
  */
 extern uint32_t count;
 
-extern DATA_TYPEDEF *local_data;
+extern DATA_TYPEDEF local_data;
 
 /**
  * @brief stores the map of the buttons

@@ -5,7 +5,8 @@
  *      Author: A38866
  */
 
-
+#ifndef E2PROM_H_
+#define E2PROM_H_
 
 #include "i2c.h"
 #include "wait.h"
@@ -23,7 +24,9 @@
 
 #define MAX_ADDR 0x7FFF
 
-#define BYTE_TRANSF_TIME 5
+#define BYTE_TRANSF_TIME 10
+
+#define INIT_WRITE_BYTE_TEST	0xA5
 
 #define TRANSF_TIMEOUT 5000 //5 seconds
 
@@ -32,8 +35,9 @@ enum TRANSF_ERRORS{
 	TIMEOUT_ERROR
 };
 
-enum READING_STATUS{
-	READING=-1,
+enum READ_WRITE_STATUS{
+	READING=-2,
+	WRITING,
 	DONE
 };
 
@@ -49,5 +53,8 @@ int random_read(unsigned short addr, unsigned short *rx);
 
 int sequential_read(unsigned short addr, unsigned short * rx_buffer, unsigned short length);
 
+int is_writing();
+
 int is_reading();
 
+#endif
